@@ -175,6 +175,16 @@ var {
 }
 #header a {
   color: white;
+  padding-right: 1.5em;
+}
+#header ul li a {
+  border-right: 1px solid #224567;
+  -webkit-box-shadow: #247aac 1px 0px 0px;
+  -moz-box-shadow: #247aac 1px 0px 0px;
+  box-shadow: #247aac 1px 0px 0px;
+}
+img.site-logo.image-style-none {
+  display: none;
 }
 @media only screen and (max-width: 768px) {
   #header {
@@ -188,7 +198,8 @@ var {
   -webkit-box-shadow: #0b417e 0px -1px 0px;
   -moz-box-shadow: #0b417e 0px -1px 0px;
   box-shadow: #0b417e 0px -1px 0px;
-  height: 150px;
+  height: 50px;
+  padding: 15px 0 0 0;
 }
 @media only screen and (min-width: 769px) {
   .header-color-row-one {
@@ -273,6 +284,7 @@ var {
   text-align: left;
   margin-right: -36.5em;
 }
+
 @media only screen and (max-width: 480px) {
   #branding {
     margin-right: -11.5em;
