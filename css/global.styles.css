@@ -3301,7 +3301,9 @@ ul.menu li {
 }
 
 .menu-bar-menu a.menu_icon {	
-	padding: 5px 0 0 40px;	
+	padding: 5px 0 10px 40px;
+	max-width: 150px;
+	line-height: 1.3em;
 }
 
 .icon-toolbox-menu-icon {
@@ -3309,12 +3311,12 @@ ul.menu li {
 	height: 32px;
 	width: 32px;
 	display: inline-block;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 }
 
 .toolbox-title {
 	padding-left: 10px;
-	max-width: 140px;
+	max-width: 150px;
 	font-weight: normal;
 }
 
