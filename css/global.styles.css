@@ -7434,6 +7434,8 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
  *   OS2intra Activity stream
  * ========================================================================== */
 
+.view-os2intra-message-notifications .view-content,
+
 .view-os2intra-group-term-activity .view-content,
 .view-os2intra-group-term-activity .view-header,
 .view-os2intra-group-term-activity .view-filters {
