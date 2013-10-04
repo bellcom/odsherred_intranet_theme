@@ -3295,6 +3295,10 @@ ul.menu li {
 .menu-bar-menu.narrow ul.menu {
 	overflow: visible;
 	}
+	
+.menu-bar-menu ul.menu a {
+	width: 140px;
+}
 
 .menu-bar-menu.narrow a {
 	text-indent: -11111px;
@@ -3311,13 +3315,14 @@ ul.menu li {
 	height: 32px;
 	width: 32px;
 	display: inline-block;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 }
 
 .toolbox-title {
 	padding-left: 10px;
 	max-width: 150px;
 	font-weight: normal;
+	display: inline-block;
 }
 
 
@@ -3341,6 +3346,91 @@ h2.pane-title.block-title {
 	font-size: 1.2em !important;
 }
 
+
+/* =============================================================================
+ *     Spot-Bokse styling
+ * ===========================================================================*/
+ 
+#homebox .homebox-portlet .homebox-portlet-inner {
+ 	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#homebox .homebox-portlet .portlet-header {
+	background: #3e84c5 !important;
+	color: #ffffff !important;
+}
+
+#homebox .homebox-portlet .portlet-header .portlet-title {
+	padding-left: 5px;
+}
+
+#homebox .portlet-content {
+	padding: 5px 5px 5px 9px;
+}
+
+#homebox .homebox-portlet {
+	margin: 2px 0 5px;
+	padding: 0;
+	border: 3px solid #eee;
+	background-color: white;
+	-webkit-box-shadow: 2px 2px 3px 1px #ccc;
+	box-shadow: 2px 2px 3px 1px #ccc;
+	border-radius: 5px;
+}
+
+#homebox .homebox-column {
+    margin: 2px;
+    padding: 5px;
+    background: none;
+    min-height: 40px;
+}
+
+.view-os2intra-message-notifications .view-content, .view-os2intra-group-term-activity .view-content, .view-os2intra-group-term-activity .view-header, .view-os2intra-group-term-activity .view-filters {
+	margin: 2px 0 5px;
+	padding: 0;
+	border: 3px solid #eee;
+	background-color: white;
+	-webkit-box-shadow: 2px 2px 3px 1px #ccc;
+	box-shadow: 2px 2px 3px 1px #ccc;
+	border-radius: 5px;
+}
+
+.os2intra_birthdays_block_list img {
+	background: white;
+	display: inline-block;
+	padding: 4px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: #858585 1px 1px 4px;
+	-moz-box-shadow: #858585 1px 1px 4px;
+	box-shadow: #858585 1px 1px 4px;
+	line-height: 0;
+}
+
+ul.os2intra_birthdays_block_list {
+margin: 5px 5px 5px -10px;
+padding: 0;
+list-style: none;
+}
+
+ul.os2intra_birthdays_block_list li img {
+	margin-right: 10px;
+	margin-bottom: 15px;
+	float: right;
+}
+
+ul.os2intra_birthdays_block_list li span.birthday {
+	padding-right: 5px;
+}
+
+ul.os2intra_birthdays_block_list li span.name {
+
+}
 
 /* =============================================================================
  *   Panels Styling
@@ -7456,6 +7546,7 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 .view-os2intra-group-term-activity .view-filters .views-exposed-widget {
   display: inline-block;
 }
+.view-os2intra-message-notifications .view-content,
 .view-os2intra-group-term-activity .view-header,
 .view-os2intra-group-term-activity .view-filters {
   padding-left: 20px;
