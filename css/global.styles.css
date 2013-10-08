@@ -3295,7 +3295,7 @@ ul.menu li {
 .menu-bar-menu.narrow ul.menu {
 	overflow: visible;
 	}
-	
+
 .menu-bar-menu ul.menu a {
 	width: 140px;
 }
@@ -3304,7 +3304,7 @@ ul.menu li {
 	text-indent: -11111px;
 }
 
-.menu-bar-menu a.menu_icon {	
+.menu-bar-menu a.menu_icon {
 	padding: 5px 0 10px 40px;
 	max-width: 150px;
 	line-height: 1.3em;
@@ -3362,7 +3362,7 @@ h2.pane-title.block-title {
 /* ============================================================================
  *      Horisontal menu styling
  * ===========================================================================*/
- 
+
 nav#block-menu-block-1 {
 	display: block;
 	background-color: #3e84c5;
@@ -3420,7 +3420,7 @@ nav#block-menu-block-2 div.menu-block-wrapper ul.menu li.active-trail a.active-t
 /* =============================================================================
  *     Spot-Bokse styling
  * ===========================================================================*/
- 
+
 #homebox .homebox-portlet .homebox-portlet-inner {
  	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -3509,9 +3509,9 @@ ul.os2intra_birthdays_block_list li span.birthday {
 	padding-right: 5px;
 }
 
-ul.os2intra_birthdays_block_list li span.name {	
+ul.os2intra_birthdays_block_list li span.name {
 	font-weight: bold;
-} 
+}
 
 div.view-os2intra-random-user, div.view-os2intra-users-search {
 	width: 100%;
@@ -7659,4 +7659,16 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 .view-os2intra-group-term-activity .view-header,
 .view-os2intra-group-term-activity .view-filters {
   padding-left: 20px;
+}
+
+/* =============================================================================
+ *   OS2intra canteen menu - Dagens ret
+ * ========================================================================== */
+.view-os2intra-canteen-menu .views-exposed-widgets .views-exposed-widget,
+.view-os2intra-canteen-menu .views-exposed-widgets .views-widget,
+.view-os2intra-canteen-menu .views-exposed-widgets label {
+  display: inline-block;
+}
+.views-field-field-os2intra-canteen-menu-date {
+  font-weight: bold;
 }
