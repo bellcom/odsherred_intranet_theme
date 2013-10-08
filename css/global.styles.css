@@ -3456,6 +3456,9 @@ nav#block-menu-block-2 div.menu-block-wrapper ul.menu li.active-trail a.active-t
     background: none;
     min-height: 40px;
 }
+#homebox .homebox-column-wrapper-1 {
+  clear: left;
+}
 
 .view-os2intra-message-notifications .view-content, .view-os2intra-group-term-activity .view-content, .view-os2intra-group-term-activity .view-header, .view-os2intra-group-term-activity .view-filters {
 	margin: 2px 0 5px;
