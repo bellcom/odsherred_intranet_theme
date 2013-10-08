@@ -648,6 +648,9 @@ function intranet_theme_preprocess_form(&$variables, $hook) {
     $variables['attributes_array']['class'] = $variables['classes_array'];
   }
   else {
+    if (!is_array($variables['attributes_array']['class'])) {
+       $variables['attributes_array']['class'] = array($variables['attributes_array']['class']);
+    }
     $variables['attributes_array']['class'] = array_merge($variables['attributes_array']['class'], $variables['classes_array']);
   }
 
@@ -1269,4 +1272,13 @@ function intranet_theme_preprocess_user_profile(&$variables, $hook) {
 function intranet_theme_preprocess_commons_search_solr_user_results(&$variables, $hook) {
   // Hide the results title.
   $variables['title_attributes_array']['class'][] = 'element-invisible';
+}
+
+/**
+ * Implements hook_breadcrumb().
+ */
+function intranet_theme_breadcrumb($breadcrumb){
+  $breadcrumb = drupal_get_breadcrumb();
+  $breadcrumb[] = drupal_get_title();
+  return theme_breadcrumb(array('breadcrumb' => $breadcrumb));
 }

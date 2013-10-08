@@ -140,9 +140,7 @@
     <?php print render($page['secondary_content']); ?>
 
     <div id="page-top">
-      <!-- Breadcrumbs -->
-      <?php if ($breadcrumb): print $breadcrumb; endif; ?>
-
+      
       <?php print render($title_prefix); // Does nothing by default in D7 core ?>
 
       <?php if ($title || $primary_local_tasks || $secondary_local_tasks || $action_links = render($action_links)): ?>
