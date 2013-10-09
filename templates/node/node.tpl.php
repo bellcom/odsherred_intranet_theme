@@ -109,6 +109,7 @@ hide($content['links']);
 hide($content['report_link']);
 ?>
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?>"<?php print $attributes; ?>>
+
   <?php if ($title && !$page): ?>
     <header<?php print $header_attributes; ?>>
       <?php print render($title_prefix); ?>

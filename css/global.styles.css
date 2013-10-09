@@ -3274,16 +3274,20 @@ ul.action-links {
 /*=================================================================================
  *	Left-menu styling
  *================================================================================*/
-
+.menu-bar-menu .panel-display .region{
+  padding: 0;
+}
 li a.active {
 	color: rgb(39, 131, 185);
 }
 
-ul.menu li {
+ul.nice-menu li {
 	list-style: none;
-	margin-left: -5px;
 	}
-
+ul.nice-menu {
+  padding: 0;
+  margin: 0;
+}
 .menu-bar-menu {
 	background: #ffffff url(../images/logo_intranet.png) no-repeat top center;
 }
@@ -3314,9 +3318,6 @@ ul.menu li {
 	padding-left: 10px;
 }
 
-.menu-bar-menu.narrow li.menu-depth-2 {
-	display: none;
-}
 
 .icon-toolbox-menu-icon {
 	background: url(../images/blaa_tool_2.png) no-repeat left center;
@@ -3340,25 +3341,64 @@ ul.menu li {
 
 .toolbox-content {
   position: absolute;
-  left: 120px;
+  left: 190px;
+  margin-top: -32px;
+  width: 200px;
+}
+
+.toolbox-content .item-list ul {
+  margin: 0;
+  padding: 0;
+}
+
+.toolbox-content .item-list ul li {
+  list-style: none;
 }
 
 .narrow a span.toolbox-title {
-	display: none;
+  display: none;
 }
 
 .narrow .view-footer a {
-	display: none !important;
+  display: none !important;
 }
 
 h3.pane-title.block-title {
-	font-size: 1.2em !important;
+  font-size: 1.2em !important;
 }
 
 h2.pane-title.block-title {
-	font-size: 1.2em !important;
+  font-size: 1.2em !important;
 }
 
+ul.nice-menu ul {
+  left: 190px;
+  width: 200px;
+  margin-top: -40px;
+}
+
+.menu-bar-menu .views-field.views-field-title {
+  height: 32px;
+}
+
+.menu-bar-menu.narrow ul.nice-menu ul a {
+  text-indent: 0px;
+}
+
+.narrow .toolbox-content,
+.narrow ul.nice-menu ul {
+  left: 45px;
+}
+
+.toolbox-content,
+ul.nice-menu ul {
+  background: white;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+}
 /* ============================================================================
  *      Horisontal menu styling
  * ===========================================================================*/
