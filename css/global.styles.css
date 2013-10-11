@@ -80,7 +80,7 @@ body.page-node .pane-views-panes > div, .page-events .view-commons-events-upcomi
  * element as these can be overridden using font theme settings.
  */
 html {
-  background: #e6e6e6;
+  background: #fff;
   font-size: 87.5%;
   min-height: 100%;
 }
@@ -170,7 +170,7 @@ var {
   color: white;
   text-align: left;
   padding-right: 10px;
-  padding-left: 10px;
+  padding-left: 25px;
   white-space: nowrap;
 }
 #header a {
@@ -219,7 +219,7 @@ img.site-logo.image-style-none {
 
 /**
  * Wraps the sidebars the content column
- */
+
 #columns {
   margin-right: 10px;
   margin-left: 10px;
@@ -235,6 +235,7 @@ img.site-logo.image-style-none {
   box-shadow: inset 0 1px 0 white;
   margin: 0 10px;
 }
+.region-footer { padding-left: 20px; padding-top: 10px;}
 
 /**
  * Default credit block
@@ -419,7 +420,11 @@ img.site-logo.image-style-none {
 }
 
 #page-top {
-  margin: 20px 0 0;
+  margin: 0 0 0 0;
+}
+
+.front #page-top {
+  margin-top: 20px;
 }
 
 /* =============================================================================
@@ -2481,7 +2486,7 @@ ul.node-action-links a {
  * User profile
  */
 .page-user .panel-display .region-three-33-top {
-  padding-left: 150px;
+/*  padding-left: 150px;
   /* This feels hackish, but it is only for administrating the layout of the
      page. It is still not ideal as it is inflexible and only works with the
      current core functionality of commons. */
@@ -3275,7 +3280,7 @@ ul.action-links {
  *	Left-menu styling
  *================================================================================*/
 .menu-bar-menu .panel-display .region{
-  padding: 0;
+  /*padding: 0;*/
 }
 li a.active {
 	color: rgb(39, 131, 185);
@@ -3289,11 +3294,16 @@ ul.nice-menu {
   margin: 0;
 }
 .menu-bar-menu {
-	background: #ffffff url(../images/logo_intranet.png) no-repeat top center;
+	background: #e1e1e1 url(../images/logo_intranet.png) no-repeat top center;
+}
+
+.js-menu-bar-toggle {
+	height: 60px;
+	background-color: #e1e1e1;
 }
 
 .menu-bar-menu.narrow {
-	background: #ffffff url(../images/logo_narrow.png) no-repeat top center;
+	background: #e1e1e1 url(../images/logo_narrow.png) no-repeat top center;
 }
 
 .menu-bar-menu.narrow ul.menu {
@@ -3483,8 +3493,8 @@ nav#block-menu-block-2 div.menu-block-wrapper ul.menu li.active-trail a.active-t
 #homebox .homebox-portlet {
 	margin: 2px 0 5px;
 	padding: 0;
-	border: 3px solid #eee;
-	background-color: white;
+	border: 0px solid #eee;
+	background-color: #dedede;
 	-webkit-box-shadow: 2px 2px 3px 1px #ccc;
 	box-shadow: 2px 2px 3px 1px #ccc;
 	border-radius: 5px;
@@ -3595,8 +3605,8 @@ div.view-os2intra-random-user, div.view-os2intra-users-search {
 
 .panel-display {
   min-width: 100%;
-  margin-right: -10px;
-  margin-left: 10px !important;
+  /*margin-right: -10px;
+  margin-left: 10px !important;*/
 }
 
 
@@ -7728,3 +7738,56 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 .view-os2intra-group-wiki-pages .views-row a {
   color: white;
 }
+
+/* =============================================================================
+ *   OS2intra intrabox rammer
+ * ========================================================================== */
+
+.front .intraboxes { margin-top: 32px; }
+.intraboxes h3 { background: #3e84c5 !important; color: #ffffff !important;margin: 0; padding: 2px 4px; border-bottom: 1px solid #ddd; background: #e4f0f8; color: #494949; min-height: 18px; font-size: 1em;
+-webkit-border-top-left-radius: 3px;
+-webkit-border-top-right-radius: 3px;
+-moz-border-radius-topleft: 3px;
+-moz-border-radius-topright: 3px;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+line-height: 1.75em;
+padding-left: 10px; }
+.intraboxes h3 a { color: #FFF;line-height: 1.75em; }
+
+.intrabox-single {
+background-color: #dedede;
+-webkit-border-top-left-radius: 3px;
+-webkit-border-top-right-radius: 3px;
+-moz-border-radius-topleft: 3px;
+-moz-border-radius-topright: 3px;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+-webkit-box-shadow: rgb(133, 133, 133) 1px 1px 4px;
+box-shadow: rgb(133, 133, 133) 1px 1px 4px;
+margin: 10px 0px;
+padding: 0 0 0 0;
+line-height: 0.75;
+}
+
+.intrabox-single .billede img {
+-webkit-border-bottom-left-radius: 3px;
+-webkit-border-bottom-right-radius: 3px;
+-moz-border-radius-bottomleft: 3px;
+-moz-border-radius-botomright: 3px;
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+width: 100%;
+max-width: 100%;
+}
+
+.front h2#page-title {display: none}
+#main-content ul.menu { margin-top: 0;}
+#block-system-main { padding-left: 20px; padding-top: 20px; }
+
+.container { margin: 0;}
+
+.media-youtube-video .media-youtube-player { max-width: 100%}
+
+.pane-print-print-links { text-align: right;}
+.region-three-50-25-25-second .region-inner { background-color: #fefefe; padding: 5px; }
