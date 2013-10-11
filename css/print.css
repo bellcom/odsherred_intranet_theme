@@ -83,7 +83,9 @@ ul.links,
 .action-links,
 .pager,
 .messages,
-.help {
+.help,
+#purr-container,
+script {
   display: none;
 }
 

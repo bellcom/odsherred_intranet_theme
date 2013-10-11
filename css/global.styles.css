@@ -3412,15 +3412,19 @@ ul.nice-menu ul {
 /* ============================================================================
  *      Horisontal menu styling
  * ===========================================================================*/
-
+.region-secondary-content dl, .region-secondary-content menu, .region-secondary-content ol, .region-secondary-content ul {margin: 0 0;}
 nav#block-menu-block-1 {
 	display: block;
 	background-color: #3e84c5;
 	height: 50px;
+	margin-bottom: 0 !important; 
+	margin-top: 0 !important;
 }
 
 nav#block-menu-block-1 div.menu-block-wrapper ul.menu {
 	padding: 15px 0 15px 0 !important;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 nav#block-menu-block-1 div.menu-block-wrapper ul.menu li {
@@ -3443,7 +3447,8 @@ nav#block-menu-block-2 {
 	display: block;
 	background-color: #85A4CF;
 	height: 40px;
-	margin-top: -20px;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
 }
 
 nav#block-menu-block-2 div.menu-block-wrapper ul.menu {
@@ -7751,7 +7756,7 @@ border-top-left-radius: 3px;
 border-top-right-radius: 3px;
 -webkit-box-shadow: rgb(133, 133, 133) 1px 1px 4px;
 box-shadow: rgb(133, 133, 133) 1px 1px 4px;
-margin: 10px 0px;
+margin: 5px 0px 20px;
 padding: 0 0 0 0;
 line-height: 0.75;
 }
@@ -7769,7 +7774,7 @@ max-width: 100%;
 
 .front h2#page-title {display: none}
 #main-content ul.menu { margin-top: 0;}
-#block-system-main { padding-left: 20px; padding-top: 20px; }
+#block-system-main { padding-left: 20px; }
 
 .container { margin: 0;}
 
@@ -7777,3 +7782,24 @@ max-width: 100%;
 
 .pane-print-print-links { text-align: right;}
 .region-three-50-25-25-second .region-inner { background-color: #fefefe; padding: 5px; }
+
+#main-content-header { padding-left: 25px;}
+
+.breadcrumb { padding-bottom: 0.5em; padding-top: 0.5em; }
+
+.inner15 .block-inner { padding: 15px}
+.inner10 .block-inner { padding: 10px}
+.inner5 .block-inner { padding: 5px}
+.marginbot0 { margin-bottom: 0;}
+
+.os2intra-actions { background-color: #FF8F53; color: #FFAD81;}
+.os2intra-actions a { color: #FFF; text-decoration: none; font-weight: 700;}
+.os2intra-actions h2, .os2intra-actions h2 a, .os2intra-actions h2.block-title { color: #FF6919; font-weight: 700;} 
+
+.os2intra-service { background-color: #FFCC19; color: #FFE381}
+.os2intra-service a { color: #FFF; text-decoration: none; font-weight: 700;}
+
+.os2intra-menu-level1 { background-color: #09396E}
+.os2intra-menu-level2 { background-color: #1D60AA}
+.os2intra-menu-level3 { background-color: #508FD5}
+.os2intra-menu-level4 { background-color: #74A1D5}
