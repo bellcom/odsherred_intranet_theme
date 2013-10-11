@@ -5280,3 +5280,19 @@ max-width: 100%;
 .pane-os2intra-message-notifications a { color: #FFF; font-weight: 700;}
 .pane-os2intra-message-notifications .views-row { border-bottom: 1px solid #FFF; }
 .pane-os2intra-message-notifications .views-row-last { border-bottom: 0px solid #FFF; }
+
+
+/* =============================================================================
+ *   OS2intra group menu.
+ * ========================================================================== */
+.view-os2intra-group-wiki-pages {
+  background-color: rgb(62, 132, 197);
+}
+.view-os2intra-group-wiki-pages .views-row {
+  display:inline-block;
+  padding: 10px 0 10px 20px;
+  margin: 0;
+}
+.view-os2intra-group-wiki-pages .views-row a {
+  color: white;
+}
