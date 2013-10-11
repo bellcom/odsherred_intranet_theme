@@ -3435,7 +3435,7 @@ nav#block-menu-block-1 div.menu-block-wrapper ul.menu li {
 	padding: 10px 0 10px 20px;
 }
 
-nav#block-menu-block-1 div.menu-block-wrapper ul.menu li a.menu_icon {
+nav#block-menu-block-1 div.menu-block-wrapper ul.menu li a {
 	color: #ffffff !important;
 	background: none !important;
 	padding-left: 5px !important;
