@@ -2628,10 +2628,10 @@ a:hover, a:focus {
   content: "";
   display: block;
   position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: 0px;
-  height: 0px;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
   border-style: solid;
   border-width: 0 7px 8px 7px;
   border-color: transparent transparent #3d9dd6 transparent;
@@ -2640,10 +2640,10 @@ a:hover, a:focus {
   content: "";
   display: block;
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   left: 1px;
-  width: 0px;
-  height: 0px;
+  width: 0;
+  height: 0;
   border-style: solid;
   border-width: 0 6px 6px 6px;
   border-color: transparent transparent #2783b9 transparent;
@@ -2682,9 +2682,9 @@ a:hover, a:focus {
 @media only screen and (max-width: 480px) {
   #menu-bar.nav {
     border-right: 0;
-    -webkit-box-shadow: #4082a7 0px 0px 0px;
-    -moz-box-shadow: #4082a7 0px 0px 0px;
-    box-shadow: #4082a7 0px 0px 0px;
+    -webkit-box-shadow: #4082a7 0 0 0;
+    -moz-box-shadow: #4082a7 0 0 0;
+    box-shadow: #4082a7 0 0 0;
   }
   #menu-bar.nav ul.menu li a {
     font: 0/0 a;
@@ -3186,9 +3186,12 @@ ul.nice-menu {
 }
 
 .menu-bar-menu a.menu_icon {
-	padding: 5px 0 10px 40px;
-	max-width: 150px;
-	line-height: 1.3em;
+  padding: 0 0 5px 40px;
+  max-width: 150px;
+  line-height: 1.3em;
+}
+.menu-bar-menu .block {
+  margin: 0;
 }
 
 .menu-bar-menu li.menu-depth-2 {
@@ -3259,7 +3262,7 @@ ul.nice-menu ul {
 }
 
 .menu-bar-menu.narrow ul.nice-menu ul a {
-  text-indent: 0px;
+  text-indent: 0;
 }
 
 .narrow .toolbox-content,
@@ -3284,7 +3287,7 @@ nav#block-menu-block-1 {
 	display: block;
 	background-color: #3e84c5;
 	height: 50px;
-	margin-bottom: 0 !important; 
+	margin-bottom: 0 !important;
 	margin-top: 0 !important;
 }
 
@@ -3299,7 +3302,7 @@ nav#block-menu-block-1 div.menu-block-wrapper ul.menu li {
 	padding: 10px 0 10px 20px;
 }
 
-nav#block-menu-block-1 div.menu-block-wrapper ul.menu li a.menu_icon {
+nav#block-menu-block-1 div.menu-block-wrapper ul.menu li a {
 	color: #ffffff !important;
 	background: none !important;
 	padding-left: 5px !important;
@@ -3362,7 +3365,7 @@ nav#block-menu-block-2 div.menu-block-wrapper ul.menu li.active-trail a.active-t
 #homebox .homebox-portlet {
 	margin: 0 0 15px;
 	padding: 0;
-	border: 0px solid #eee;
+	border: 0 solid #eee;
 	background-color: #dedede;
 	} 
 
@@ -3518,11 +3521,11 @@ div.view-os2intra-random-user, div.view-os2intra-users-search {
 
 .pane-commons-groups-directory-panel-pane-1 {
   background-color: transparent;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
-  -o-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -3670,8 +3673,8 @@ div.view-os2intra-random-user, div.view-os2intra-users-search {
 .pane-commons-contributors-group-panel-pane-1 td a span:after {
   content: "";
   display: block;
-  width: 0px;
-  height: 0px;
+  width: 0;
+  height: 0;
   border-style: solid;
   border-width: 5px 5px 0 5px;
   border-color: rgba(0, 0, 0, 0.85) transparent transparent transparent;
@@ -4141,8 +4144,8 @@ div.view-os2intra-random-user, div.view-os2intra-users-search {
 .featured-node-tooltip:before {
   content: "";
   display: block;
-  width: 0px;
-  height: 0px;
+  width: 0;
+  height: 0;
   border-style: solid;
   border-width: 5px 5px 5px 0;
   border-color: transparent rgba(0, 0, 0, 0.85) transparent transparent;
@@ -5280,19 +5283,3 @@ max-width: 100%;
 .pane-os2intra-message-notifications a { color: #FFF; font-weight: 700;}
 .pane-os2intra-message-notifications .views-row { border-bottom: 1px solid #FFF; }
 .pane-os2intra-message-notifications .views-row-last { border-bottom: 0px solid #FFF; }
-
-
-/* =============================================================================
- *   OS2intra group menu.
- * ========================================================================== */
-.view-os2intra-group-wiki-pages {
-  background-color: rgb(62, 132, 197);
-}
-.view-os2intra-group-wiki-pages .views-row {
-  display:inline-block;
-  padding: 10px 0 10px 20px;
-  margin: 0;
-}
-.view-os2intra-group-wiki-pages .views-row a {
-  color: white;
-}
