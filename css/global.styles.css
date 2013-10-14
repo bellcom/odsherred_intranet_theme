@@ -5315,3 +5315,15 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   padding-bottom: 0.7em;
   margin-bottom: 0.7em;
 }
+
+
+/* =============================================================================
+ *   .media module overwrites.
+ * ========================================================================== */
+.media-item {
+  width: 100px;
+}
+.media-item img {
+  width: 100%;
+  height: auto;
+}
