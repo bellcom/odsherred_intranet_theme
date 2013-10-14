@@ -5226,18 +5226,21 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
    padding-left: 10px;
  }
 
-.intraboxes h3 a { color: #FFF;line-height: 1.75em; }
+.intraboxes h3 a {
+  color: #FFF;
+  line-height: 1.75em;
+}
 
 .intrabox-single {
-background-color: #dedede;
-margin: 5px 0px 15px;
-padding: 0 0 0 0;
-line-height: 0.75;
+  background-color: #dedede;
+  margin: 5px 0px 15px;
+  padding: 0 0 0 0;
+  line-height: 0.75;
 }
 
 .intrabox-single .billede img {
-width: 100%;
-max-width: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 
 .front h2#page-title {display: none}
