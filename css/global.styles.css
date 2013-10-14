@@ -5304,3 +5304,14 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 .view-os2intra-group-wiki-pages .views-row a {
   color: white;
 }
+
+/* =============================================================================
+ *   Commons activity stream user page
+ * ========================================================================== */
+
+.view-commons-activity-streams-user-activity .views-row,
+.view-commons-activity-streams-user-activity .views-row .views-row-first,
+.view-commons-activity-streams-user-activity .views-row .views-row-last{
+  padding-bottom: 0.7em;
+  margin-bottom: 0.7em;
+}
