@@ -148,7 +148,7 @@ img.site-logo.image-style-none {
   .header-color-row-one {
     border-top: none;
   }
-} 
+}
 
 .header-color-row-two {
   position: relative;
@@ -167,7 +167,7 @@ img.site-logo.image-style-none {
   margin-right: 10px;
   margin-left: 10px;
 }
- 
+
 /**
  * Footer wrapper
  */
@@ -632,7 +632,7 @@ optgroup::-moz-focus-inner {
   opacity: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   }
-  
+
 .select-inactive .hidden-select {
   width: 100%;
 }
@@ -3366,7 +3366,7 @@ nav#block-menu-block-2 div.menu-block-wrapper ul.menu li.active-trail a.active-t
 	padding: 0;
 	border: 0 solid #eee;
 	background-color: #dedede;
-	} 
+	}
 
 #homebox .homebox-column {
     padding: 0;
@@ -5206,26 +5206,27 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   font-weight: bold;
 }
 
- 
+
 /* =============================================================================
  *   OS2intra intrabox rammer
  * ========================================================================== */
 
 .front .intraboxes { margin-top: 23px; }
- 
-.intraboxes h3 { 
- background: #3e84c5 !important; 
- color: #ffffff !important;
- margin: 0; 
- padding: 2px 4px; 
- background: #e4f0f8; 
- color: #494949; 
- min-height: 18px; 
- font-size: 1em;
- line-height: 1.75em;
- padding-left: 10px; }
-  
-.intraboxes h3 a { color: #FFF;line-height: 1.75em; } 
+
+.intraboxes h3 {
+   background: #3e84c5 !important;
+   color: #ffffff !important;
+   margin: 0;
+   padding: 2px 4px;
+   background: #e4f0f8;
+   color: #494949;
+   min-height: 18px;
+   font-size: 1em;
+   line-height: 1.75em;
+   padding-left: 10px;
+ }
+
+.intraboxes h3 a { color: #FFF;line-height: 1.75em; }
 
 .intrabox-single {
 background-color: #dedede;
@@ -5235,7 +5236,7 @@ line-height: 0.75;
 }
 
 .intrabox-single .billede img {
-width: 100%; 
+width: 100%;
 max-width: 100%;
 }
 
@@ -5261,7 +5262,7 @@ max-width: 100%;
 
 .os2intra-actions { background-color: #FF8F53; color: #FFAD81;}
 .os2intra-actions a { color: #FFF; text-decoration: none; font-weight: 700;}
-.os2intra-actions h2, .os2intra-actions h2 a, .os2intra-actions h2.block-title { color: #FF6919; font-weight: 700;} 
+.os2intra-actions h2, .os2intra-actions h2 a, .os2intra-actions h2.block-title { color: #FF6919; font-weight: 700;}
 
 .os2intra-service { background-color: #FFCC19; color: #FFE381}
 .os2intra-service a { color: #FFF; text-decoration: none; font-weight: 700;}
@@ -5275,8 +5276,8 @@ max-width: 100%;
 .notice-body h3 { margin: 20px 0 10px 0; font-size: 1.25em; color: #FFF; background-color: #FF6919 }
 
 #homebox .homebox-portlet .portlet-header { border: none;}
-#homebox .homebox-portlet .homebox-portlet-inner { 
-	border: 0px solid #c0c0c0; 
+#homebox .homebox-portlet .homebox-portlet-inner {
+	border: 0px solid #c0c0c0;
 	overflow: hidden;
 }
 
