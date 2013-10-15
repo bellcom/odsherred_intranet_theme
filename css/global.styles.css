@@ -3173,6 +3173,7 @@ ul.nice-menu {
 }
 
 .menu-bar-menu #site-logo {
+  margin: 5px;
   background: url(../images/logo_intranet.png) no-repeat top center;
   display: block;
   height: 86px;
@@ -3182,6 +3183,7 @@ ul.nice-menu {
   background: url(../images/logo_narrow.png) no-repeat top center;
   height: 63px;
   width: 50px;
+  margin-left: -10px;
 }
 
 .js-menu-bar-toggle {
