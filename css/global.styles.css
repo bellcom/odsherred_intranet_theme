@@ -3169,16 +3169,23 @@ ul.nice-menu {
   margin: 0;
 }
 .menu-bar-menu {
-	background: #e1e1e1 url(../images/logo_intranet.png) no-repeat top center;
+	background: #e1e1e1;
+}
+
+.menu-bar-menu #site-logo {
+  background: url(../images/logo_intranet.png) no-repeat top center;
+  display: block;
+  height: 63px;
+  width: 50px;
+}
+.menu-bar-menu.narrow #site-logo {
+  height: 86px;
+  width:190px;
 }
 
 .js-menu-bar-toggle {
 	height: 60px;
 	background-color: #e1e1e1;
-}
-
-.menu-bar-menu.narrow {
-	background: #e1e1e1 url(../images/logo_narrow.png) no-repeat top center;
 }
 
 .menu-bar-menu.narrow ul.menu {
