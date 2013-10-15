@@ -3179,6 +3179,7 @@ ul.nice-menu {
   width: 190px;
 }
 .menu-bar-menu.narrow #site-logo {
+  background: url(../images/logo_narrow.png) no-repeat top center;
   height: 63px;
   width: 50px;
 }
