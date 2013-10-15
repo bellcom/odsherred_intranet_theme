@@ -4056,6 +4056,7 @@ div.view-os2intra-random-user, div.view-os2intra-users-search {
   border-radius: 4px;
   box-shadow: 1px 1px 2px black inset, 2px 3px 3px rgba(255, 255, 255, 0.09);
   height: 30px;
+  width: 200px;
   margin: 0 0 0 10px;
   position: relative;
 }
