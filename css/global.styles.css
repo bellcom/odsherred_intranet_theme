@@ -5355,3 +5355,5 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 #media-browser-page-wrapper .media-browser-tab.ui-tabs-panel {
   clear: both;
 }
+
+#columns #messages {padding-left: 25px;}
