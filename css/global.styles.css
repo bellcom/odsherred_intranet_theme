@@ -5381,3 +5381,5 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 .node .field-name-field-os2web-base-field-iframe iframe {
   border: none;
 }
+
+#columns #messages {padding-left: 25px;}
