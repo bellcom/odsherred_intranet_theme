@@ -152,7 +152,7 @@ img.site-logo.image-style-none {
 
 .header-color-row-two {
   position: relative;
-  background-color: #2783b9;
+  background-color: #09396E;
   min-height: 2.5em;
   border-top: 1px solid #3d9dd6;
   border-bottom: 1px solid #1e658f;
@@ -1667,7 +1667,7 @@ h1.node-title a:hover {
 .views-exposed-form .views-exposed-widget {
   float: none;
   padding: 0;
-  margin: 1.7em 0;
+  margin: 3px 0; 
 }
 .views-exposed-form .views-exposed-widget:first-child {
   margin-top: 0;
@@ -3187,8 +3187,10 @@ ul.nice-menu {
 }
 
 .js-menu-bar-toggle {
-	height: 60px;
+	height: 25px;
+	left: 50px;
 	background-color: #e1e1e1;
+	margin-top: 82px;
 }
 
 .menu-bar-menu.narrow ul.menu {
@@ -3303,8 +3305,8 @@ ul.nice-menu ul {
 .region-secondary-content dl, .region-secondary-content menu, .region-secondary-content ol, .region-secondary-content ul {margin: 0 0;}
 nav#block-menu-block-1 {
 	display: block;
-	background-color: #3e84c5;
-	height: 50px;
+	background-color: #1D60AA;
+	line-height: 16px;
 	margin-bottom: 0 !important;
 	margin-top: 0 !important;
 }
@@ -3333,8 +3335,8 @@ nav#block-menu-block-1 div.menu-block-wrapper ul.menu li.active-trail a.menu_ico
 
 nav#block-menu-block-2 {
 	display: block;
-	background-color: #85A4CF;
-	height: 40px;
+	background-color: #508FD5;
+	line-height: 14px;
 	margin-top: 0 !important;
 	margin-bottom: 0 !important;
 }
@@ -3360,6 +3362,39 @@ nav#block-menu-block-2 div.menu-block-wrapper ul.menu li.active-trail a.active-t
 }
 
 
+/* niveau 3 */
+
+nav#block-menu-block-3 {
+	display: block;
+	background-color: #74A1D5;
+	line-height: 7px;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+nav#block-menu-block-3 div.menu-block-wrapper ul.menu {
+	padding: 10px 0 10px 5px !important;
+}
+
+nav#block-menu-block-3 div.menu-block-wrapper ul.menu li {
+	display: inline;
+	padding: 10px 0 10px 20px;
+}
+
+nav#block-menu-block-3 div.menu-block-wrapper ul.menu li.menu-depth-3 a {
+	color: #ffffff !important;
+	background: none !important;
+	/* padding-left: 5px !important; */
+	padding-right: 15px;
+	font-weight: normal;
+	
+}
+
+nav#block-menu-block-3 div.menu-block-wrapper ul.menu li.active-trail a.active-trail {
+	font-weight: bold !important;
+}
+
+
 /* =============================================================================
  *     Spot-Bokse styling
  * ===========================================================================*/
@@ -3368,7 +3403,7 @@ nav#block-menu-block-2 div.menu-block-wrapper ul.menu li.active-trail a.active-t
  	}
 
 #homebox .homebox-portlet .portlet-header {
-	background: #3e84c5 !important;
+	background: #30567F !important;
 	color: #ffffff !important;
 }
 
@@ -3446,12 +3481,6 @@ ul.os2intra_birthdays_block_list li span.name {
 
 div.view-os2intra-random-user, div.view-os2intra-users-search {
 	width: 100%;
-}
-
-.view-os2intra-random-user div.views-row, .view-os2intra-users-search div.views-row {
-	float: left;
-	margin-left: 15px;
-	width: 45%;
 }
 
 .view-os2intra-random-user div.views-row-even:after, .view-os2intra-users-search div.viws-row-even:after {
@@ -5205,9 +5234,7 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 .view-os2intra-group-term-activity .view-filters .views-exposed-widget {
   display: inline-block;
 }
-.view-os2intra-message-notifications .view-content,
-.view-os2intra-group-term-activity .view-header,
-.view-os2intra-group-term-activity .view-filters {
+.view-os2intra-message-notifications .view-content {
   padding-left: 20px;
 }
 .node-type-group .view-os2intra-group-term-activity .views-widget-filter-title {
@@ -5296,7 +5323,7 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 .os2intra-menu-level4 { background-color: #74A1D5}
 
 .notice-body p { margin: 0 0 0 0; }
-.notice-body h3 { margin: 20px 0 10px 0; font-size: 1.25em; color: #FFF; background-color: #FF6919 }
+.notice-body h3 { margin: 0 15px 10px 0; font-size: 1.25em; color: #FFF; background-color: #FF6919; padding: 3px; }
 
 #homebox .homebox-portlet .portlet-header { border: none;}
 #homebox .homebox-portlet .homebox-portlet-inner {
@@ -5369,10 +5396,22 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 #media-browser-page-wrapper .views-exposed-widget {
   display: inline-block;
   float: left;
-  padding: 10px;
-}
+  padding: 10px; }
+  
 #media-browser-page-wrapper .media-browser-tab.ui-tabs-panel {
-  clear: both;
-}
+  clear: both; }
 
 #columns #messages {padding-left: 25px;}
+
+.notice .close { top: 18px; right: 12px;}
+
+/* =============================================================================
+ *  person visning
+ * ========================================================================== */ 
+.person .views-row { float: left; height: 130px; width: 130px; margin-left: 5px !important; margin-bottom: 5px; padding-bottom: 5px; } 
+.person .views-row.views-row-odd { clear: both; }
+.person .views-row.views-row-last {padding-bottom: 5px; margin-bottom: 5px; } 
+.person .views-field-name, .person .navn { position: absolute; bottom: 0; background-color: #A68208; z-index: 3; width: 110px; padding: 3px;}
+.person .views-field-name a, .person .navn a { color: #FFF;}
+.person .views-field-picture, .person .bruger-billede { position: absolute; bottom: 0;}
+.person .views-field-field-os2intra-phone { display: none; }
