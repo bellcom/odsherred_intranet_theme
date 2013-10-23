@@ -5374,3 +5374,10 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 #media-browser-page-wrapper .media-browser-tab.ui-tabs-panel {
   clear: both;
 }
+
+/* =============================================================================
+ *   OS2intra Iframe styles.
+ * ========================================================================== */
+.node .field-name-field-os2web-base-field-iframe iframe {
+  border: none;
+}
