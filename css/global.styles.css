@@ -5358,6 +5358,10 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   text-align: right;
   padding-right: 10px;
 }
+.pane-os2intra-message-notifications .views-field-created,
+.pane-os2intra-message-notifications-panel-pane-1 .views-field-created {
+  font-size: 10px;
+}
 
 /* =============================================================================
  *   OS2intra group menu.
