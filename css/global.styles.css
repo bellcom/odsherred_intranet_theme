@@ -5260,7 +5260,10 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
  *   OS2intra intrabox rammer
  * ========================================================================== */
 
-.front .intraboxes { margin-top: 23px; }
+.front .intraboxes, 
+.node-type-group .intraboxes { 
+  margin-top: 23px;
+}
 
 .intraboxes h3 {
    background: #3e84c5 !important;
