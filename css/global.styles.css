@@ -5427,3 +5427,14 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 .person .views-field-name a, .person .navn a { color: #FFF;}
 .person .views-field-picture, .person .bruger-billede { position: absolute; bottom: 0;}
 .person .views-field-field-os2intra-phone { display: none; }
+
+/* =============================================================================
+ *  OS2intra Widgets
+ * ========================================================================== */
+.view-os2intra-widgets .view-footer p {
+  margin: 0;
+}
+.view-os2intra-widgets .view-footer {
+  margin-top: 15px;
+  border-top: 1px solid #D0D0D0;
+}
