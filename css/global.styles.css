@@ -5242,7 +5242,12 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 .node-type-group .view-os2intra-group-term-activity .views-widget-filter-title {
   display: none;
 }
-
+.pane-os2intra-group-term-activity-panel-pane-1 {
+  background-color: #DEDEDE;
+}
+.pane-os2intra-group-term-activity-panel-pane-1 h2 {
+  padding: 10px;
+}
 /* =============================================================================
  *   OS2intra canteen menu - Dagens ret
  * ========================================================================== */
