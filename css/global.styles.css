@@ -5233,6 +5233,9 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   margin: 10px 0;
   padding: 10px;
 }
+.view-os2intra-group-term-activity .view-filters {
+  border-bottom: 1px solid #D0D0D0;
+}
 .view-os2intra-group-term-activity .view-filters .views-exposed-widget {
   display: inline-block;
 }
@@ -5246,7 +5249,9 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   background-color: #DEDEDE;
 }
 .pane-os2intra-group-term-activity-panel-pane-1 h2 {
-  padding: 10px;
+  padding: 5px 10px;
+  background-color: #30567F;
+  color: white;
 }
 /* =============================================================================
  *   OS2intra canteen menu - Dagens ret
