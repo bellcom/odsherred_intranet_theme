@@ -5315,7 +5315,7 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 
 .media-youtube-video .media-youtube-player { max-width: 100%}
 
-.pane-print-print-links { text-align: right;}
+.pane-print-print-links { text-align: right; float: right;}
 .region-three-50-25-25-second .region-inner { background-color: #fefefe; padding: 5px; }
 
  #main-content-header { padding-left: 25px;}
@@ -5470,3 +5470,13 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   margin-top: 15px;
   border-top: 1px solid #D0D0D0;
 }
+
+/* =============================================================================
+ *  OS2intra Local tasks
+ * ========================================================================== */
+ 
+.pane-local-tasks-blocks-menu-menu-local-tasks ul {margin: 0; padding: 0; float: left}
+.pane-local-tasks-blocks-menu-menu-local-tasks ul li { display: inline; margin-right: 10px;}
+.float-left { float: left}
+.node-type-os2intra-base-page #page-top { display: none;}
+.node-type-os2intra-base-page .node-header { clear: both; }
