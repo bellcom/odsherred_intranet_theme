@@ -5246,7 +5246,16 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   display: none;
 }
 .view-os2intra-group-term-activity .views-row {
-  border-top: 1px solid #D0D0D0;
+  border-bottom: 1px solid #D0D0D0;
+}
+.view-os2intra-group-term-activity .views-field-last-updated,
+.view-os2intra-group-term-activity .views-field.group-title {
+  color: #999;
+  font-size: 11px;
+}
+.view-os2intra-group-term-activity .views-field.group-title {
+  clear: both;
+  text-align: right;
 }
 .pane-os2intra-group-term-activity-panel-pane-1,
 .pane-os2intra-group-term-activity-panel-pane-2 {
@@ -5490,7 +5499,6 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   color: #333333;
   display: inline;
   line-height: 14px;
-  margin: 0 5px;
   padding: 0;
   font-size: 10px;
 }
@@ -5500,6 +5508,7 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   display: inline-block;
   position: relative;
   margin-right: 3px;
+  margin-left: 10px;
 }
 .comment-count-indicator:before {
   background: url('../images/icons-s0eb3728c55.png') 0 -1198px no-repeat;
