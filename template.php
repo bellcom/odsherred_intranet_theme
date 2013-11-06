@@ -240,7 +240,7 @@ function intranet_theme_menu_link($variables) {
  * Helper function to examine menu links and return the appropriate class.
  */
 function intranet_theme_menu_link_class(&$element)  {
-  if ($element['#original_link']['menu_name'] == 'main-menu') {
+  if (isset($element['#original_link']) && $element['#original_link']['menu_name'] == 'main-menu') {
     $element['#attributes']['class'][] = drupal_html_class($element['#original_link']['menu_name'] . '-' . $element['#original_link']['router_path']);
   }
 }
