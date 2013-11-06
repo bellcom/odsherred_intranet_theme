@@ -5397,6 +5397,9 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   color: #FFF;
   font-weight: 700;
 }
+.node-type-group #nodebasket-toolbox-list a {
+  color: black;
+}
 
 .pane-os2intra-message-notifications .views-row,
 .pane-os2intra-message-notifications-panel-pane-1  .views-row { border-bottom: 1px solid #FFF; }
