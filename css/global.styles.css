@@ -75,14 +75,14 @@ h1 a :hover {
 h2 {
   color: #0b417e;
   font-weight: lighter;
-  font-size: 3.8em;
+  font-size: 1.8em;
   font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 
 h3 {
   color: #3e845c;
   font-weight: normal;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 .sidebar h3 {
   color: #0b417e;
@@ -348,7 +348,7 @@ img.site-logo.image-style-none {
 .search-results-title {
   margin: 0 0 .2em;
   font-weight: 300;
-  font-size: 2.85em;
+  font-size: 2.50em;
   line-height: 1.2em;
 }
 
@@ -2065,8 +2065,8 @@ h1.node-title a:hover {
 .comments-title,
 .comment-form-title {
   margin-top: 0;
-  font-size: 2.2em;
-  line-height: 1.2em;
+  font-size: 1.4em;
+  line-height: 1em;
   color: #333333;
 }
 
