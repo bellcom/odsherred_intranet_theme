@@ -5505,7 +5505,7 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 .pane-local-tasks-blocks-menu-menu-local-tasks ul li { display: inline; margin-right: 10px;}
 .float-left { float: left}
 .node-type-os2intra-base-page #page-top { display: none;}
-.node-type-os2intra-base-page .node-header { clear: both; }
+.page-node .node-header { clear: both; }
 .node-type-os2intra-base-page div.field.field-name-field-os2intra-base-images.field-type-image.field-label-hidden.view-mode-full { float: right; margin-left: 10px; margin-bottom: 10px;}
 .node-type-os2intra-base-page div.field.field-name-body.field-type-text-with-summary.field-label-hidden.view-mode-full {margin-top: 0;}
  
