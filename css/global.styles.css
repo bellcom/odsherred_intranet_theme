@@ -5515,6 +5515,8 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
  * ========================================================================== */
 .comment-count-indicator,
 .comment-count-indicator div,
+.attendee-count-indicator,
+.attendee-count-indicator div,
 .voting-count-indicator,
 .voting-count-indicator div {
   color: #333333;
@@ -5524,6 +5526,7 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   font-size: 10px;
 }
 .comment-count-indicator:before,
+.attendee-count-indicator:before,
 .voting-count-indicator:before {
   content: "";
   display: inline-block;
@@ -5543,3 +5546,10 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   width: 10px;
   height: 14px;
 }
+
+.attendee-count-indicator:before {
+  background: url('../images/icons-s0eb3728c55.png') 0 -851px no-repeat;
+  width: 13px;
+  height: 14px;
+}
+
