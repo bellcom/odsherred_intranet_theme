@@ -75,14 +75,14 @@ h1 a :hover {
 h2 {
   color: #0b417e;
   font-weight: lighter;
-  font-size: 3.8em;
+  font-size: 1.8em;
   font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
 }
 
 h3 {
   color: #3e845c;
   font-weight: normal;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 .sidebar h3 {
   color: #0b417e;
@@ -152,7 +152,7 @@ img.site-logo.image-style-none {
 
 .header-color-row-two {
   position: relative;
-  background-color: #2783b9;
+  background-color: #09396E;
   min-height: 2.5em;
   border-top: 1px solid #3d9dd6;
   border-bottom: 1px solid #1e658f;
@@ -348,7 +348,7 @@ img.site-logo.image-style-none {
 .search-results-title {
   margin: 0 0 .2em;
   font-weight: 300;
-  font-size: 3.85em;
+  font-size: 2.50em;
   line-height: 1.2em;
 }
 
@@ -1667,7 +1667,7 @@ h1.node-title a:hover {
 .views-exposed-form .views-exposed-widget {
   float: none;
   padding: 0;
-  margin: 1.7em 0;
+  margin: 3px 0; 
 }
 .views-exposed-form .views-exposed-widget:first-child {
   margin-top: 0;
@@ -2065,8 +2065,8 @@ h1.node-title a:hover {
 .comments-title,
 .comment-form-title {
   margin-top: 0;
-  font-size: 2.2em;
-  line-height: 1.2em;
+  font-size: 1.4em;
+  line-height: 1em;
   color: #333333;
 }
 
@@ -3187,8 +3187,10 @@ ul.nice-menu {
 }
 
 .js-menu-bar-toggle {
-	height: 60px;
+	height: 25px;
+	left: 50px;
 	background-color: #e1e1e1;
+	margin-top: 82px;
 }
 
 .menu-bar-menu.narrow ul.menu {
@@ -3290,7 +3292,7 @@ ul.nice-menu ul {
 
 .toolbox-content,
 ul.nice-menu ul {
-  background: white;
+  background: #E1E1E1;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   border-top: 1px solid #dadada;
@@ -3300,14 +3302,20 @@ ul.nice-menu ul {
 /* ============================================================================
  *      Horisontal menu styling
  * ===========================================================================*/
-.region-secondary-content dl, .region-secondary-content menu, .region-secondary-content ol, .region-secondary-content ul {margin: 0 0;}
+.region-secondary-content dl, 
+.region-secondary-content menu, 
+.region-secondary-content ol, 
+.region-secondary-content ul {
+	margin: 0 0;
+}
+
 nav#block-menu-block-1 {
 	display: block;
-	background-color: #3e84c5;
-	height: 50px;
+	background-color: #1D60AA;
+	line-height: 16px;
 	margin-bottom: 0 !important;
 	margin-top: 0 !important;
-}
+	padding-left: 5px; }
 
 nav#block-menu-block-1 div.menu-block-wrapper ul.menu {
 	padding: 15px 0 15px 0 !important;
@@ -3333,14 +3341,14 @@ nav#block-menu-block-1 div.menu-block-wrapper ul.menu li.active-trail a.menu_ico
 
 nav#block-menu-block-2 {
 	display: block;
-	background-color: #85A4CF;
-	height: 40px;
+	background-color: #508FD5;
+	line-height: 14px;
 	margin-top: 0 !important;
 	margin-bottom: 0 !important;
 }
 
 nav#block-menu-block-2 div.menu-block-wrapper ul.menu {
-	padding: 10px 0 10px 5px !important;
+	padding: 10px 0 10px 10px !important;
 }
 
 nav#block-menu-block-2 div.menu-block-wrapper ul.menu li {
@@ -3360,6 +3368,39 @@ nav#block-menu-block-2 div.menu-block-wrapper ul.menu li.active-trail a.active-t
 }
 
 
+/* niveau 3 */
+
+nav#block-menu-block-3 {
+	display: block;
+	background-color: #74A1D5;
+	line-height: 7px;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+nav#block-menu-block-3 div.menu-block-wrapper ul.menu {
+	padding: 10px 0 10px 5px !important;
+}
+
+nav#block-menu-block-3 div.menu-block-wrapper ul.menu li {
+	display: inline;
+	padding: 10px 0 10px 20px;
+}
+
+nav#block-menu-block-3 div.menu-block-wrapper ul.menu li.menu-depth-3 a {
+	color: #ffffff !important;
+	background: none !important;
+	/* padding-left: 5px !important; */
+	padding-right: 15px;
+	font-weight: normal;
+	
+}
+
+nav#block-menu-block-3 div.menu-block-wrapper ul.menu li.active-trail a.active-trail {
+	font-weight: bold !important;
+}
+
+
 /* =============================================================================
  *     Spot-Bokse styling
  * ===========================================================================*/
@@ -3368,7 +3409,7 @@ nav#block-menu-block-2 div.menu-block-wrapper ul.menu li.active-trail a.active-t
  	}
 
 #homebox .homebox-portlet .portlet-header {
-	background: #3e84c5 !important;
+	background: #30567F !important;
 	color: #ffffff !important;
 }
 
@@ -3446,12 +3487,6 @@ ul.os2intra_birthdays_block_list li span.name {
 
 div.view-os2intra-random-user, div.view-os2intra-users-search {
 	width: 100%;
-}
-
-.view-os2intra-random-user div.views-row, .view-os2intra-users-search div.views-row {
-	float: left;
-	margin-left: 15px;
-	width: 45%;
 }
 
 .view-os2intra-random-user div.views-row-even:after, .view-os2intra-users-search div.viws-row-even:after {
@@ -3624,6 +3659,9 @@ div.view-os2intra-random-user, div.view-os2intra-users-search {
 .view-commons-groups-directory > .view-content > .views-row,
 .view-commons-homepage-content .node-teaser.node-group > .view-content > .views-row {
   position: relative;
+}
+.view-commons-groups-directory > .view-content > .views-row {
+  margin-left: 70px;
 }
 .view-commons-groups-directory .pane-node-body,
 .view-commons-homepage-content .node-teaser.node-group .pane-node-body {
@@ -4053,12 +4091,7 @@ div.view-os2intra-random-user, div.view-os2intra-users-search {
  */
 .block-search {
   display: block;
-  background-color: #24476b;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #24476b), color-stop(100%, #2b5782));
-  background-image: -webkit-linear-gradient(top, #24476b 0%, #2b5782 100%);
-  background-image: -moz-linear-gradient(top, #24476b 0%, #2b5782 100%);
-  background-image: -o-linear-gradient(top, #24476b 0%, #2b5782 100%);
-  background-image: linear-gradient(top, #24476b 0%, #2b5782 100%);
+  background-color: white;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -4069,6 +4102,7 @@ div.view-os2intra-random-user, div.view-os2intra-users-search {
   width: 200px;
   margin: 0 0 0 10px;
   position: relative;
+  color: black;
 }
 .block-search .container-inline label,
 .block-search .container-inline div {
@@ -4085,6 +4119,9 @@ div.view-os2intra-random-user, div.view-os2intra-users-search {
   margin: .3em 0 .3em -5.8em;
   padding-left: .3em;
   left: 5.8em;
+}
+#header .block-search .container-inline .form-item-custom-search-types a {
+  color: black;
 }
 .block-search .container-inline .form-item-custom-search-types .select-status:after {
   border-top-color: white;
@@ -4106,7 +4143,7 @@ div.view-os2intra-random-user, div.view-os2intra-users-search {
 .block-search .form-text {
   width: 12em;
   max-width: 100%;
-  color: white;
+  color: black;
   background: transparent;
   border: none;
 }
@@ -5202,18 +5239,45 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   margin: 10px 0;
   padding: 10px;
 }
+.view-os2intra-group-term-activity .view-filters {
+  border-bottom: 1px solid #D0D0D0;
+}
 .view-os2intra-group-term-activity .view-filters .views-exposed-widget {
   display: inline-block;
 }
-.view-os2intra-message-notifications .view-content,
-.view-os2intra-group-term-activity .view-header,
-.view-os2intra-group-term-activity .view-filters {
+.view-os2intra-message-notifications .view-content {
   padding-left: 20px;
 }
 .node-type-group .view-os2intra-group-term-activity .views-widget-filter-title {
   display: none;
 }
+.view-os2intra-group-term-activity .views-row {
+  border-bottom: 1px solid #D0D0D0;
+}
+.view-os2intra-group-term-activity .views-field-last-updated,
+.view-os2intra-group-term-activity .views-field.group-title {
+  color: #999;
+  font-size: 11px;
+}
+.view-os2intra-group-term-activity .views-field.group-title {
+  clear: both;
+  text-align: right;
+}
+.pane-os2intra-group-term-activity-panel-pane-1,
+.pane-os2intra-group-term-activity-panel-pane-2 {
+  background-color: #DEDEDE;
+}
+.pane-os2intra-group-term-activity-panel-pane-1 h2,
+.pane-os2intra-group-term-activity-panel-pane-2 h2 {
+  padding: 5px 10px;
+  background-color: #30567F;
+  color: white;
+}
 
+.view-os2intra-group-term-activity .comment-count-indicator, 
+.view-os2intra-group-term-activity .voting-count-indicator {
+  float: right;
+}
 /* =============================================================================
  *   OS2intra canteen menu - Dagens ret
  * ========================================================================== */
@@ -5231,7 +5295,10 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
  *   OS2intra intrabox rammer
  * ========================================================================== */
 
-.front .intraboxes { margin-top: 23px; }
+.front .intraboxes, 
+.node-type-group .intraboxes { 
+  margin-top: 23px;
+}
 
 .intraboxes h3 {
    background: #3e84c5 !important;
@@ -5271,7 +5338,7 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 
 .media-youtube-video .media-youtube-player { max-width: 100%}
 
-.pane-print-print-links { text-align: right;}
+.pane-print-print-links { text-align: right; float: right;}
 .region-three-50-25-25-second .region-inner { background-color: #fefefe; padding: 5px; }
 
  #main-content-header { padding-left: 25px;}
@@ -5296,7 +5363,7 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 .os2intra-menu-level4 { background-color: #74A1D5}
 
 .notice-body p { margin: 0 0 0 0; }
-.notice-body h3 { margin: 20px 0 10px 0; font-size: 1.25em; color: #FFF; background-color: #FF6919 }
+.notice-body h3 { margin: 0 15px 10px 0; font-size: 1.25em; color: #FFF; background-color: #FF6919; padding: 3px; }
 
 #homebox .homebox-portlet .portlet-header { border: none;}
 #homebox .homebox-portlet .homebox-portlet-inner {
@@ -5307,15 +5374,33 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 
 /* =============================================================================
  *   Important messages - Vigtige meddelelser
+ *   Node Basket
  * ========================================================================== */
 .pane-os2intra-message-notifications,
-.pane-os2intra-message-notifications-panel-pane-1 { background-color: #FF6919; color: #FFF; margin-top: 23px;}
+.pane-os2intra-message-notifications-panel-pane-1, 
+.node-type-group #node-basket { 
+  background-color: #FF6919;
+  color: #FFF;
+  margin-top: 23px;
+  padding: 10px;
+}
 
 .pane-os2intra-message-notifications h2.block-title,
-.pane-os2intra-message-notifications-panel-pane-1  h2.block-title { color: #FFF; padding: 10px 10px 0}
+.pane-os2intra-message-notifications-panel-pane-1  h2.block-title,
+.node-type-group #node-basket h2.block-title {
+  color: #FFF;
+  padding: 10px 10px 0;
+}
 
 .pane-os2intra-message-notifications a,
-.pane-os2intra-message-notifications-panel-pane-1  a { color: #FFF; font-weight: 700;}
+.pane-os2intra-message-notifications-panel-pane-1  a,
+.node-type-group #node-basket a{
+  color: #FFF;
+  font-weight: 700;
+}
+.node-type-group #nodebasket-toolbox-list a {
+  color: black;
+}
 
 .pane-os2intra-message-notifications .views-row,
 .pane-os2intra-message-notifications-panel-pane-1  .views-row { border-bottom: 1px solid #FFF; }
@@ -5327,6 +5412,10 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 .pane-os2intra-message-notifications-panel-pane-1  .view-footer{
   text-align: right;
   padding-right: 10px;
+}
+.pane-os2intra-message-notifications .views-field-created,
+.pane-os2intra-message-notifications-panel-pane-1 .views-field-created {
+  font-size: 10px;
 }
 
 /* =============================================================================
@@ -5355,7 +5444,9 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   margin-bottom: 0.7em;
 }
 
-
+.views-field-last-updated a {
+  color: #333333;
+}
 /* =============================================================================
  *   .media module overwrites.
  * ========================================================================== */
@@ -5369,11 +5460,10 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 #media-browser-page-wrapper .views-exposed-widget {
   display: inline-block;
   float: left;
-  padding: 10px;
-}
+  padding: 10px; }
+  
 #media-browser-page-wrapper .media-browser-tab.ui-tabs-panel {
-  clear: both;
-}
+  clear: both; }
 
 /* =============================================================================
  *   OS2intra Iframe styles.
@@ -5383,3 +5473,83 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 }
 
 #columns #messages {padding-left: 25px;}
+
+.notice .close { top: 18px; right: 12px;}
+
+/* =============================================================================
+ *  person visning
+ * ========================================================================== */ 
+.person { float: left; width: 130px; margin-left: 5px !important; margin-bottom: 15px; padding-bottom: 5px; } 
+.person.views-row-odd { clear: both; }
+.person.views-row-last { padding-bottom: 5px; margin-bottom: 5px; } 
+.person .views-field-name, .person .navn { background-color: #A68208; z-index: 3; width: 102px; padding: 3px; margin-top: -5px}
+.person .views-field-name a, .person .navn a { color: #FFF;}
+.person .views-field-picture, .person .bruger-billede { }
+.person .views-field-field-os2intra-phone { display: none; }
+
+/* =============================================================================
+ *  OS2intra Widgets
+ * ========================================================================== */
+.view-os2intra-widgets .view-footer p {
+  margin: 0;
+}
+.view-os2intra-widgets .view-footer {
+  margin-top: 15px;
+  border-top: 1px solid #D0D0D0;
+}
+
+/* =============================================================================
+ *  OS2intra Local tasks
+ * ========================================================================== */
+ 
+.pane-local-tasks-blocks-menu-menu-local-tasks ul {margin: 0; padding: 0; float: left}
+.pane-local-tasks-blocks-menu-menu-local-tasks ul li { display: inline; margin-right: 10px;}
+.float-left { float: left}
+.node-type-os2intra-base-page #page-top { display: none;}
+.node-type-os2intra-base-page .node-header { clear: both; }
+.node-type-os2intra-base-page div.field.field-name-field-os2intra-base-images.field-type-image.field-label-hidden.view-mode-full { float: right; margin-left: 10px; margin-bottom: 10px;}
+.node-type-os2intra-base-page div.field.field-name-body.field-type-text-with-summary.field-label-hidden.view-mode-full {margin-top: 0;}
+ 
+/* =============================================================================
+ *  OS2intra special buttons.
+ * ========================================================================== */
+.comment-count-indicator,
+.comment-count-indicator div,
+.attendee-count-indicator,
+.attendee-count-indicator div,
+.voting-count-indicator,
+.voting-count-indicator div {
+  color: #333333;
+  display: inline;
+  line-height: 14px;
+  padding: 0;
+  font-size: 10px;
+}
+.comment-count-indicator:before,
+.attendee-count-indicator:before,
+.voting-count-indicator:before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  margin-right: 3px;
+  margin-left: 10px;
+}
+.comment-count-indicator:before {
+  background: url('../images/icons-s0eb3728c55.png') 0 -1198px no-repeat;
+  width: 13px;
+  height: 12px;
+  margin-top:2px;
+}
+
+.voting-count-indicator:before {
+  background: url('../images/icons-s0eb3728c55.png') 0 -599px no-repeat;
+  width: 10px;
+  height: 14px;
+}
+
+.attendee-count-indicator:before {
+  background: url('../images/icons-s0eb3728c55.png') 0 -851px no-repeat;
+  width: 13px;
+  height: 14px;
+}
+
