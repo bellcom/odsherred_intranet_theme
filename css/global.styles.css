@@ -3286,7 +3286,7 @@ ul.nice-menu ul {
 }
 
 .narrow .toolbox-content,
-.narrow ul.nice-menu ul {
+.narrow ul.nice-menu>li>ul {
   left: 45px;
 }
 
@@ -3298,6 +3298,14 @@ ul.nice-menu ul {
   border-top: 1px solid #dadada;
   border-right: 1px solid #dadada;
   border-bottom: 1px solid #dadada;
+}
+.toolbox-content li,
+ul.nice-menu ul li{
+  border-bottom: 1px solid #D0D0D0;
+}
+.toolbox-content li:last-child,
+ul.nice-menu ul li:last-child {
+  border-bottom: none;
 }
 /* ============================================================================
  *      Horisontal menu styling
