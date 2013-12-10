@@ -5286,6 +5286,10 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 .view-os2intra-group-term-activity .voting-count-indicator {
   float: right;
 }
+
+.view-os2intra-group-term-activity .views-field-field-os2web-base-field-media ul {
+  list-style-type: none;
+}
 /* =============================================================================
  *   OS2intra canteen menu - Dagens ret
  * ========================================================================== */
