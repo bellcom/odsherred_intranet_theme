@@ -2538,7 +2538,7 @@ ul.node-action-links a {
 }
 
 .group-recent-data {
-  display: inlline-block;
+  display: inline-block;
   float: left;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -3263,15 +3263,15 @@ ul.nice-menu {
   display: none !important;
 }
 
-h3.pane-title.block-title {
+.menu-bar-menu h3.pane-title.block-title {
+  font-size: 1.5em !important;
+}
+
+.menu-bar-menu h2.pane-title.block-title {
   font-size: 1.2em !important;
 }
 
-h2.pane-title.block-title {
-  font-size: 1.2em !important;
-}
-
-ul.nice-menu ul {
+.menu-bar-menu ul.nice-menu ul {
   left: 190px;
   width: 200px;
   margin-top: -40px;
