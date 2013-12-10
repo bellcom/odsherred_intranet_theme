@@ -414,10 +414,10 @@ img.site-logo.image-style-none {
   padding-left: 78px;
 }
 .node-teaser.node-promoted.user-picture-available .user-picture {
-  position: absolute;
+  position: relative;
   float: left;
   margin-left: -68px;
-  top: 10px;
+  top: 30px;
 }
 .node-teaser.node-promoted.user-picture-available .user-picture img {
   width: 50px;
@@ -1431,7 +1431,7 @@ button,
   position: absolute;
   float: left;
   margin-left: -68px;
-  top: 0;
+  top: 50px;
 }
 .user-picture-available .user-picture img {
   width: 50px;
@@ -5332,6 +5332,10 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   padding: 0 0 0 0;
   line-height: 0.75;
 }
+.views-row-first.intrabox-single { margin-top: 0;
+}
+.views-row-last.intrabox-single { margin-bottom: 0;
+}
 
 .intrabox-single .billede img {
   width: 100%;
@@ -5568,3 +5572,16 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 #mini-panel-left_menu_bar .block { margin-bottom: 10px; border-bottom: 1px solid #dedede; padding-bottom: 10px; }
 
 .view-node-basket.view-display-id-block_1 .views-row { padding-bottom: 0; }
+.node-type-os2intra-base-page .region-three-50-25-25-first { width: 60% !important}
+.node-type-os2intra-base-page .region-three-50-25-25-third { width: 15% !important}
+
+/* =============================================================================
+ *  OS2intra file list.
+ * ========================================================================== */
+
+.os2intra-files .block-inner { background-color: #EEE}
+.os2intra-files h2.block-title { padding: 15px;background-color: blue; color: #FFF}
+.os2intra-files .block-content { margin: 10px; padding: 5px; background-color: #FFF;}
+.os2intra-files .field-items .field-item { clear: left;}
+.os2intra-files .field-items .field-item.even {}
+.os2intra-files .field-items .field-item img.file-icon { float: left;}
