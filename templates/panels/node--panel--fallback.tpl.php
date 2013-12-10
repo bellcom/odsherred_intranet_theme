@@ -117,9 +117,8 @@ hide($content['report_link']);
     <?php print render($title_suffix); ?>
   </header>
 
-  <?php if(!empty($user_picture) || $display_submitted): ?>
+  <?php if($display_submitted): ?>
     <footer<?php print $footer_attributes; ?>>
-      <?php print $user_picture; ?>
       <p class="author-datetime"><?php print $submitted; ?></p>
     </footer>
   <?php endif; ?>

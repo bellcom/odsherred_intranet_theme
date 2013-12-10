@@ -288,11 +288,6 @@ function intranet_theme_preprocess_node(&$variables, $hook) {
     $variables['user_picture'] = '';
   }
 
-  // If there does happen to be a user image, add a class for styling purposes.
-  if (!empty($variables['user_picture'])) {
-    $variables['classes_array'][] = 'user-picture-available';
-  }
-
   // Style node links like buttons.
   if (isset($variables['content']['links'])) {
     foreach ($variables['content']['links'] as $type => &$linkgroup) {
@@ -687,16 +682,6 @@ function intranet_theme_preprocess_form(&$variables, $hook) {
     $variables['attributes_array']['class'][] = 'node-actions';
   }
 
-  // Make sure the bottom of the partial node form clears all content.
-  if (strpos($element['#form_id'], 'commons_bw_partial_node_form_') === 0) {
-    $variables['attributes_array']['class'][] = 'user-picture-available';
-    $variables['attributes_array']['class'][] = 'clearfix';
-  }
-
-  // Place the user avatar to the left of the private message form content.
-  if ($variables['element']['#form_id'] == 'commons_trusted_contacts_messages_popup') {
-    $variables['content_attributes_array']['class'][] = 'user-picture-available';
-  }
 }
 
 /**
