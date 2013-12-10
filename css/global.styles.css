@@ -5580,8 +5580,8 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
  * ========================================================================== */
 
 .os2intra-files .block-inner { background-color: #EEE}
-.os2intra-files h2.block-title { padding: 15px;background-color: blue; color: #FFF}
-.os2intra-files .block-content { margin: 10px; padding: 5px; background-color: #FFF;}
+.os2intra-files h2.block-title { padding: 15px;background-color: #3F70A6; color: #FFF}
+.os2intra-files .block-content { margin: 5px; padding: 10px; background-color: #FFF;}
 .os2intra-files .field-items .field-item { clear: left;}
 .os2intra-files .field-items .field-item.even {}
 .os2intra-files .field-items .field-item img.file-icon { float: left;}
