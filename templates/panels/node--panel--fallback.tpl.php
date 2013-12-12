@@ -111,9 +111,9 @@ hide($content['report_link']);
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <header<?php print $header_attributes; ?>>
     <?php print render($title_prefix); ?>
-    <h2<?php print $title_attributes; ?>>
+    <h3<?php print $title_attributes; ?>>
       <?php print $title; ?>
-    </h2>
+    </h3>
     <?php print render($title_suffix); ?>
   </header>
 

@@ -29,7 +29,7 @@ body.page-node .pane-views-panes > div, .page-events .view-commons-events-upcomi
 }
 
 html {
-  background: #fff;
+  background: #e1e1e1;
   font-size: 87.5%;
   min-height: 100%;
 }
@@ -46,8 +46,10 @@ body {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   color: #333333;
   min-width: 18em;
+  background-color: #e1e1e1;
+  min-height: 100%;
 }
-
+.header-wrapper, #page { background-color: #FFF; }
 /* =============================================================================
  *   HTML Elements
  * ========================================================================== */
@@ -361,10 +363,8 @@ img.site-logo.image-style-none {
 
 #page-top {
   margin: 0 0 0 0;
-}
-
-.front #page-top {
-  margin-top: 20px;
+  background-color: #FFF;
+  padding-top: 20px;
 }
 
 /* =============================================================================
@@ -3063,7 +3063,7 @@ ul.primary li a {
   line-height: 1.5em;
 }
 ul.primary li a:hover, ul.primary li a:focus {
-  background-color: #eeeeee;
+  background-color: #fff;
   border-color: #cccccc;
 }
 ul.primary li.active a,
@@ -3163,6 +3163,8 @@ li a.active {
 
 ul.nice-menu li {
 	list-style: none;
+	vertical-align: middle;
+	font-size: 12px;
 	}
 ul.nice-menu {
   padding: 0;
@@ -3170,6 +3172,7 @@ ul.nice-menu {
 }
 .menu-bar-inner {
 	background: #e1e1e1;
+		font-size: 12px;
 }
 
 .menu-bar-menu #site-logo {
@@ -3191,58 +3194,76 @@ ul.nice-menu {
 	left: 50px;
 	background-color: #e1e1e1;
 	margin-top: 82px;
-}
+} 
 
 .menu-bar-menu.narrow ul.menu {
 	overflow: visible;
 	}
 
-.menu-bar-menu ul.menu a {
-	width: 140px;
+.menu-bar-menu ul li {
+	border-top: 1px solid #f9f9f9;
+	border-bottom:1px solid #dfdfdf;
+	vertical-align: middle;
+	line-height: 32px;
+	margin: 0;
 }
-
+.menu-bar-menu ul li:hover, .menu-bar-menu ul li:focus { background-color: #FFF; color: #000;}
+.menu-bar-menu ul li ul, .menu-bar-menu ul li ul li { margin-left: 0}
 .menu-bar-menu.narrow a {
-	text-indent: -11111px;
+	text-indent: -11111px; 
 }
 
-.menu-bar-menu a.menu_icon {
-  padding: 0 0 5px 40px;
+.menu-bar-menu a.menu_icon { 
+  padding: 0 0 0 30px;
   max-width: 150px;
-  line-height: 1.3em;
+  background-size: 20px;
+  background-position-x: 5px;
 }
 .menu-bar-menu .block {
   margin: 0;
 }
 
-.menu-bar-menu li.menu-depth-2 {
+.menu-bar-menu li.menu-depth-2 a,
+.toolbox-content a {
 	padding-left: 10px;
+	background-color: #FFF; 
+	border-top: 1px solid #dfdfdf;
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+        display: block;
 }
-
+.menu-bar-menu li.menu-depth-2.last a {
+	border-bottom: 1px solid #dfdfdf }
 
 .icon-toolbox-menu-icon {
 	background: url(../images/blaa_tool_2.png) no-repeat left center;
 	height: 32px;
 	width: 32px;
 	display: inline-block;
-	margin-bottom: 5px;
+	background-size: 20px; 
+	background-position-x: 5px;
+        float: left;
+        clear: both;
 }
 
 .toolbox-title {
-	padding-left: 10px;
+	padding-left: 0px;
 	max-width: 150px;
 	font-weight: normal;
 	display: inline-block;
+	line-height: 32px;
 }
 
 
-.icon-toolbox-menu-icon {
+/*.icon-toolbox-menu-icon {
 	float: left;
-}
+}*/
 
 .toolbox-content {
   position: absolute;
-  left: 190px;
-  margin-top: -32px;
+  left: 175px;
+  top: -2px;
+/*  margin-top: -32px;*/
   width: 200px;
 }
 
@@ -3264,7 +3285,7 @@ ul.nice-menu {
 }
 
 .menu-bar-menu h3.pane-title.block-title {
-  font-size: 1.5em !important;
+  font-size: 1.2em !important;
 }
 
 .menu-bar-menu h2.pane-title.block-title {
@@ -3272,13 +3293,15 @@ ul.nice-menu {
 }
 
 .menu-bar-menu ul.nice-menu ul {
-  left: 190px;
+  left: 180px;
   width: 200px;
-  margin-top: -40px;
+  margin-top: -36px;
+  padding-left: 0;
 }
 
 .menu-bar-menu .views-field.views-field-title {
   height: 32px;
+	border-bottom: #dfdfdf 1px solid;
 }
 
 .menu-bar-menu.narrow ul.nice-menu ul a {
@@ -3287,7 +3310,7 @@ ul.nice-menu {
 
 .narrow .toolbox-content,
 .narrow ul.nice-menu>li>ul {
-  left: 45px;
+  left: 40px;
 }
 
 .toolbox-content,
@@ -5578,6 +5601,90 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 .view-node-basket.view-display-id-block_1 .views-row { padding-bottom: 0; }
 .node-type-os2intra-base-page .region-three-50-25-25-first { width: 60% !important}
 .node-type-os2intra-base-page .region-three-50-25-25-third { width: 15% !important}
+
+.menu-bar-menu .panel-display .region{
+  /*padding: 0;*/
+}
+.view-node-basket li a.active {
+	color: rgb(39, 131, 185);
+}
+
+.view-node-basket .views-row {
+padding-bottom: 0;
+margin-bottom: 0;
+clear: both;
+	}
+.view-node-basket ul {
+  padding: 0;
+  margin: 0;
+}
+
+.view-node-basket.narrow ul.menu {
+	overflow: visible;
+	}
+
+.view-node-basket ul a {
+vertical-align: middle;
+line-height: 32px;
+}
+.view-node-basket ul a:hover, 
+.view-node-basket ul a:focus {
+	background-color: #FFF; color: #000;}
+	
+.view-node-basket li ul, 
+.view-node-basket li ul li { 
+	margin-left: 0}
+	
+.view-node-basket.narrow a {
+	text-indent: -11111px; 
+}
+
+.view-node-basket a.menu_icon { 
+  padding: 0 0 0 30px;
+  max-width: 150px;
+  background-size: 20px;
+  background-position-x: 5px;
+}
+.view-node-basket .block {
+  margin: 0;
+}
+
+.view-node-basket li.menu-depth-2 a {
+	padding-left: 10px;
+	background-color: #FFF; 
+	border-top: 1px solid #dfdfdf;
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+}
+.view-node-basket li.menu-depth-2.last a {
+	border-bottom: 1px solid #dfdfdf }
+
+
+.view-node-basket h3.pane-title.block-title {
+  font-size: 1.2em !important;
+}
+
+.view-node-basket h2.pane-title.block-title {
+  font-size: 1.2em !important;
+}
+
+.view-node-basket ul ul {
+  left: 175px;
+  width: 200px;
+  margin-top: -36px;
+  padding-left: 0;
+}
+
+.view-node-basket .views-field.views-field-title {
+  height: 32px;
+}
+
+.view-node-basket.narrow ul.nice-menu ul a {
+  text-indent: 0;
+}
+
+
+
 
 /* =============================================================================
  *  OS2intra file list.
