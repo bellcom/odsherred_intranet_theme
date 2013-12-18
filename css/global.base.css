@@ -72,7 +72,7 @@ audio:not([controls]) {
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
-  line-height: 1.7;
+  line-height: 1.25;
   overflow-y: scroll;
 }
 
@@ -144,17 +144,17 @@ h3 {
 
 h4 {
   font-size: 1.4em;
-  margin: 1.33em 0;
+  margin: 1.33em 0 0;
 }
 
 h5 {
   font-size: 1.2em;
-  margin: 1.67em 0;
+  margin: 1.67em 0 0;
 }
 
 h6 {
   font-size: 1em;
-  margin: 2.33em 0;
+  margin: 2.33em 0 0;
 }
 
 /*
@@ -196,7 +196,7 @@ mark {
  */
 p,
 pre {
-  margin: 0 0 1.5em;
+  margin: 0 0 5px;
 }
 
 /*
