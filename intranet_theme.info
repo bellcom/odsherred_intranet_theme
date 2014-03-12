@@ -61,6 +61,7 @@
   scripts[] = scripts/modernizr.js
   scripts[] = scripts/syze.min.js
   scripts[] = scripts/intranet_theme.js
+  scripts[] = scripts/intra-activity_search.js
 
   ; Internet Explorer Scripts
   ;

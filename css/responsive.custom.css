@@ -124,6 +124,8 @@
     vertical-align: middle;
   }
   .intraboxes { display: none;}
+  .panels-flexible-region-os2intra_45_40_15-stream, .panels-flexible-region-os2intra_45_40_15-center { width: 49%}
+.panels-flexible-region-os2intra_45_40_15-spots { display: none} 
 }
 /*
  * Tablet sizes and up
