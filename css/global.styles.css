@@ -29,7 +29,7 @@ body.page-node .pane-views-panes > div, .page-events .view-commons-events-upcomi
 }
 
 html {
-  background: #e1e1e1;
+  background: #f1f1f1;
   font-size: 87.5%;
   min-height: 100%;
 }
@@ -177,7 +177,7 @@ img.site-logo.image-style-none {
   border-top: 1px solid #cccccc;
   margin: 0 10px;
 }
-.region-footer { padding-left: 20px; padding-top: 10px;}
+.region-footer { padding-left: 10px; padding-top: 10px;}
 
 /**
  * Default credit block
@@ -1261,6 +1261,15 @@ button,
   margin-top: -2px;
   margin-bottom: -2px;
 }
+
+
+.view-os2intra-group-nodes .rate-widget, .view-os2intra-group-nodes .comment-count-indicator { float: right;}
+.view-os2intra-group-nodes a.rate-button {padding: 0; margin: 0; background-color: transparent; border: none; background: none; width: 20px;}
+.view-os2intra-group-nodes .rate-commons-like-count { background-color: transparent; border: none; margin: 0 0 0 4px; padding: 0; border-style: none;}
+.view-os2intra-group-nodes .rate-commons-like-count:before { border: none !important;}
+.view-os2intra-group-nodes a.rate-button:before { border-right: none; margin: 0; padding: 0;}
+.view-os2intra-group-nodes a.rate-button * { background: none;}
+
 
 /* Follow buttons */
 [class*="flag-commons-follow-"] .flag-action {
@@ -3185,7 +3194,12 @@ ul.nice-menu {
 	height: 25px;
 	left: 50px;
 	background-color: #e1e1e1;
-	margin-top: 82px;
+	margin-top: 65px;
+	border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    display: block;
+    position: fixed;
+    width: 11px;
 } 
 
 .menu-bar-menu.narrow ul.menu {
@@ -3198,11 +3212,15 @@ ul.nice-menu {
 	vertical-align: middle;
 	line-height: 32px;
 	margin: 0;
-}
+	}
+.menu-bar-menu.narrow  ul li {
+	border-bottom: none;
+	border-top: none;
+	}
 .menu-bar-menu ul li.first { border-top: none;}
 .menu-bar-menu ul li ul li { border-bottom: none;}
 .menu-bar-menu ul li:hover, .menu-bar-menu ul li:focus { background-color: #FFF; color: #000;}
-.menu-bar-menu ul li ul, .menu-bar-menu ul li ul li { margin-left: 0}
+.menu-bar-menu ul li ul, .menu-bar-menu ul li ul li { margin-left: 0; padding-left: 0}
 .menu-bar-menu.narrow a {
 	text-indent: -11111px; 
 }
@@ -3212,6 +3230,7 @@ ul.nice-menu {
   max-width: 150px;
   background-size: 20px;
   background-position-x: 5px;
+  height: initial;
 }
 .menu-bar-menu .block {
   margin: 0;
@@ -3353,7 +3372,7 @@ nav#block-menu-block-1 div.menu-block-wrapper ul.menu {
 
 nav#block-menu-block-1 div.menu-block-wrapper ul.menu li {
 	display: inline;
-	padding: 10px 0 10px 20px;
+	padding: 10px 0 10px 10px;
 }
 
 nav#block-menu-block-1 div.menu-block-wrapper ul.menu li a {
@@ -3381,7 +3400,7 @@ nav#block-menu-block-2 div.menu-block-wrapper ul.menu {
 
 nav#block-menu-block-2 div.menu-block-wrapper ul.menu li {
 	display: inline;
-	padding: 10px 0 10px 20px;
+	padding: 10px 0 10px 10px;
 }
 
 nav#block-menu-block-2 div.menu-block-wrapper ul.menu li.menu-depth-2 a {
@@ -3394,23 +3413,19 @@ nav#block-menu-block-2 div.menu-block-wrapper ul.menu li.active-trail a.active-t
 	font-weight: bold !important;
 }
 
-
-/* niveau 3 */
-
 nav#block-menu-block-3 {
 	display: block;
 	background-color: #74A1D5;
 	line-height: 30px;
 	margin-top: 0 !important;
-	margin-bottom: 0 !important;
-}
+	margin-bottom: 0 !important;}
 
 nav#block-menu-block-3 div.menu-block-wrapper ul.menu {
 	padding: 0 0 0 10px !important; }
 
 nav#block-menu-block-3 div.menu-block-wrapper ul.menu li {
 	display: inline;
-	padding: 0 0 0 20px;
+	padding: 0 0 0 10px;
 }
 
 nav#block-menu-block-3 div.menu-block-wrapper ul.menu li.menu-depth-3 a {
@@ -3437,7 +3452,7 @@ nav#block-menu-block-4 div.menu-block-wrapper ul.menu {
 
 nav#block-menu-block-4 div.menu-block-wrapper ul.menu li {
 	display: inline;
-	padding: 0 0 0 20px;}
+	padding: 0 0 0 10px;}
 
 nav#block-menu-block-4 div.menu-block-wrapper ul.menu li.menu-depth-4 a {
 	color: #ffffff !important;
@@ -3475,8 +3490,8 @@ nav#block-menu-block-4 div.menu-block-wrapper ul.menu li ul.menu a { font-style:
 #homebox .homebox-portlet {
 	margin: 0 0 15px;
 	padding: 0;
-	border: 0 solid #EDF1DF ;
-	background-color: #EDF1DF;
+	border: 0 solid #EFF0DF ;
+	background-color: #EFF0DF;
 	}
 
 #homebox .homebox-column {
@@ -3496,13 +3511,15 @@ nav#block-menu-block-4 div.menu-block-wrapper ul.menu li ul.menu a { font-style:
 #homebox-block-homebox_custom { background-color: #FCE449 !important; }
 #homebox-block-views_os2intra_group_members-block, #homebox-block-views_os2intra_users_search-block-1 { 
 	background-color: #ABD687 !important;}
+#homebox .homebox-portlet div.view-footer {line-height: 1.15em; padding: 5px 0 0; text-align: right; font-size: 90% }
+
 /* =============================================================================
  *   Panels Styling
  * ========================================================================== */
 .node-title,
 .pane-title {
   font-weight: normal;
-  font-size: 1.6em;
+  font-size: 1.25em;
 }
 
 .panel-display {
@@ -4100,7 +4117,7 @@ nav#block-menu-block-4 div.menu-block-wrapper ul.menu li ul.menu a { font-style:
   left: 5.8em;
 }
 #header .block-search .container-inline .form-item-custom-search-types a {
-  color: black;
+  color: #FFF;
 }
 .block-search .container-inline .form-item-custom-search-types .select-status:after {
   border-top-color: white;
@@ -4443,10 +4460,8 @@ tr.even td.active {
 /* =============================================================================
  *   Messages
  * ========================================================================== */
-div.messages {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
+div#messages { padding: 10px}
+
 div.messages ul {
   margin-top: 0;
   margin-bottom: 0;
@@ -5224,7 +5239,8 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 .view-os2intra-group-term-activity .views-field-title-field-1 a:visited {
   color: #999;
 }
-.view-os2intra-group-term-activity .view-filters .views-exposed-widget {
+.view-os2intra-group-term-activity .view-filters .views-exposed-widget,
+.view-os2intra-group-nodes .view-filters .views-exposed-widget {
   display: inline-block; vertical-align: bottom;
 }
 .view-os2intra-message-notifications .view-content {
@@ -5267,7 +5283,7 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   list-style-type: none;
 }
 
-.view-os2intra-group-term-activity .view-filters {  background-color: #EAECDF;}
+.view-os2intra-group-term-activity .view-filters {  background-color: #EAECDF; }
 
 .os2intra-field-created,
 .view-os2intra-user-groups .views-field-created,
@@ -5326,7 +5342,6 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 
 .front h2#page-title {display: none}
 #main-content ul.menu { margin-top: 0;}
-#block-system-main { padding-left: 20px; }
 
 .container { margin: 0;}
 
@@ -5334,8 +5349,8 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 
 .pane-print-print-links { text-align: right; float: right;}
 .region-three-50-25-25-second .region-inner { background-color: #fefefe; padding: 5px; }
-
- #main-content-header { padding-left: 25px;}
+.content-inner {min-height: 1px; padding: 0 10px 0 20px;}
+ #main-content-header { padding-left: 20px;}
 
 .breadcrumb { padding-bottom: 0.5em; padding-top: 0.5em; }
 
@@ -5382,6 +5397,7 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   margin-top: 23px;
   padding: 10px;
 }
+.node-type-group #node-basket { margin-top: 0}
 
 .pane-os2intra-message-notifications h2.block-title,
 .pane-os2intra-message-notifications-panel-pane-1  h2.block-title,
@@ -5476,8 +5492,6 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   border: none;
 }
 
-#columns #messages {padding-left: 25px;}
-
 .notice .close { top: 18px; right: 12px;}
 
 /* =============================================================================
@@ -5557,6 +5571,14 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
   height: 14px;
 }
 
+/* =============================================================================
+ *  Spotbokse
+ * ========================================================================== */
+.view-spotbox .intrabox-single { position: relative}
+.view-spotbox .intrabox-single span.ekstratekst { position: absolute; bottom: 0; width: 100%; left: 0px;}
+.view-spotbox .intrabox-single span.ekstratekst .titel { display: none}
+.view-spotbox .intrabox-single span.ekstratekst .resten { display: block ;max-width: 100%; background-color:rgba(0,0,0,0.5); }
+.view-spotbox .intrabox-single span.ekstratekst .resten a { color: #FFF; text-decoration: none; display: block; padding: 10px; line-height: 1.1em; }
 /* =============================================================================
  *  OS2intra left menu.
  * ========================================================================== */
@@ -5655,9 +5677,12 @@ line-height: 32px;
 
 .userlist {}
 .personkort {background-color: #FFF; border-bottom: 1px solid #EAECDF; padding: 0; margin-bottom: 5px;}
-.view-os2intra-message-notifications .view-content, .view-os2intra-group-term-activity .view-content, .view-os2intra-group-term-activity .view-header, .view-os2intra-group-term-activity .view-filters {
+.view-os2intra-message-notifications .view-content, .view-os2intra-group-term-activity .view-content, .view-os2intra-group-term-activity .view-header, {
 	margin: 0;
-	padding: 5px;
+	padding: 5px 0;
+	}
+.view-os2intra-group-term-activity .view-filters {
+	margin: 0;
 	}
 
 .os2intra_birthdays_block_list img {
@@ -5759,23 +5784,28 @@ div.view-os2intra-group-members {
 /* =============================================================================
  *  OS2intra file list.
  * ========================================================================== */
-.os2intra-files { font-size: 11px; line-height: 1.7em; background-color: #FCFCFA;} 
+.os2intra-files { font-size: 11px; line-height: 1.7em; background-color: #FCFCDE;} 
 .os2intra-files a { color: #333;}
 .os2intra-files a:visite { color: #666;}
 #homebox-block-views_os2intra_group_documents-block .portlet-content {padding: 0; }
-.os2intra-files .block-inner, .view-os2intra-group-term-activity .os2intra-files, #homebox-block-views_os2intra_group_documents-block .os2intra-files { background-color: #FCFCFA; }
+.os2intra-files .block-inner, .view-os2intra-group-term-activity .os2intra-files, #homebox-block-views_os2intra_group_documents-block .os2intra-files { background-color: #FCFCDE; }
 #homebox-block-views_os2intra_group_documents-block .os2intra-files { padding:0 5px 5px;}
 #homebox-block-views_os2intra_group_documents-block .os2intra-files .os2intra-files { padding:5px 0 0;}
-#homebox-block-views_os2intra_group_documents-block .os2intra-files h3 { margin-bottom: 2px; background-color: #C0CAC9; padding: 2px 7px; font-size: 12px;}
+#homebox-block-views_os2intra_group_documents-block .os2intra-files h3 { margin-bottom: 2px; background-color: #C7CEB8; padding: 2px 7px; font-size: 12px;}
 #homebox-block-views_os2intra_group_documents-block .os2intra-files h3 a { color: #000; font-weight: normal; }
 #homebox-block-views_os2intra_group_documents-block .os2intra-files .views-row { margin: 0; padding: 0;}
 .view-os2intra-group-term-activity .os2intra-files { margin-bottom: 5px;}
-.os2intra-files h2.block-title, .view-os2intra-group-term-activity .os2intra-files span { background-color: #C0CAC9; color: #000; font-size: 13px; line-height: 25px; display: block; padding-left: 10px; font-size: 11px}
+.os2intra-files h2.block-title, .view-os2intra-group-term-activity .os2intra-files span { background-color: #C7CEB8; color: #000; font-size: 13px; line-height: 25px; display: block; padding-left: 10px; font-size: 11px}
 .view-os2intra-group-term-activity .os2intra-files ul li span { padding: 3px; height: 20px; line-height: 25px; background-color: transparent; line-height: 20px; color: #000; display: inline }
 .os2intra-files .block-content { margin: 5px; padding: 10px; background-color: #FFF;}
 .os2intra-files .field-items .field-item { clear: left;}
 .os2intra-files .field-items .field-item.even {}
-.os2intra-files .field-items .field-item img.file-icon { float: left;} 
+.os2intra-files .field-items .field-item img.file-icon { float: left; } 
+.os2intra-files.folders {padding: 5px;}
+.os2intra-files.folders .attachment { margin-bottom: 5px;} 
+.os2intra-files.folders h3 {padding: 5px; background-color:#C7CEB8;padding: 2px 7px; font-size: 12px; margin-bottom: 1px; margin-top: 0;}
+.os2intra-files.folders h3 a { font-weight: normal; color: #000;}
+.os2intra-files.folders .no-display { display: none;}
 .views-field-field-os2web-base-field-media {}
 .views-field-field-os2web-base-field-media ul,
 .views-field-field-os2web-base-field-media .item-list ul { margin: o; padding: 0; list-style: none }
@@ -5789,6 +5819,15 @@ div.view-os2intra-group-members {
 .views-field-field-os2web-base-field-media tr:nth-child(2n+2) { background-color: #F5F5F5;border-bottom: 0 none;}
 .os2intra-files .item-list ul, .os2intra-files .item-list ul li { margin: 0; padding: 0; list-style: none;}
 .os2intra-files img.file-icon { vertical-align: middle;} 
+
+.os2intra-files h3 a.post::before {background: url('../images/icons-s0eb3728c55.png') 0 -1073px no-repeat;
+width: 11px;
+height: 11px;
+display: inline-block;
+margin-right: 3px;
+position: relative;
+top: 1px;}
+
 #homebox-block-views_os2intra_group_documents-block .portlet-content { padding: 5px;}
 #views-exposed-form-os2intra-users-search-block .views-exposed-widgets { padding: 0} 
 .view-os2intra-users-search #edit-submit-os2intra-users-search, .view-os2intra-users-search #edit-realname { float: left} 
@@ -5796,8 +5835,8 @@ div.view-os2intra-group-members {
 
 .view-os2intra-group-term-activity .views-submit-button { margin-top: 6px;}
 
-.page-node-edit .form-item-title-field-da-0-value input[type="text"] { max-width: 100%; font-size: 30px;}
-
+.page-node-edit .form-item-title-field-da-0-value input[type="text"], .page-node-add input#edit-title, .page-node-edit input#edit-title  { max-width: 100%; font-size: 30px;}
+ .page-node-edit input#edit-title { margin-top: 20px;}
 .view-id-os2intra_users_content .views-field-title-1.group-title { font-size: 10px; text-align: right;}
 
 .icon-help {
@@ -5847,3 +5886,10 @@ color: #494949;
 min-height: 19px;
 font-size: 1em;
 line-height: 19px}
+.node-type-group  .pane-node-links { float: right;}
+
+.view-commons-groups-directory #edit-title-wrapper input[type="text"] { width: 100%; max-width: 100%; font-size: 24px;}
+
+.page-personer .associated-groups.profile-groups {display: none}
+
+.view-id-os2intra_group_wiki_pages a.active { font-weight: 700;}
