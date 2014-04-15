@@ -94,7 +94,7 @@ jQuery(document).ready(function($){
 
         // Adjust the height on window resize.
         $(window).resize(function () {
-          var minHeight = $fieldset.find('legend').height();
+          var minHeight = fieldset.find('legend').height();
           fieldset.css('min-height', minHeight + 'px');
         });
       });

@@ -1,7 +1,11 @@
 #menu-bar.nav ul.menu li a {
   border-left: 1px solid #247aac;
 }
-
+li.menu-3681 a[href="/organisation/odsherred-kommune"] {
+  background-image: url(/sites/default/files/styles/menu_icon/public/menu_icons/menu_icon_3681.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
 .commons-pod, .page-user .pane-views-panes, .front.not-logged-in .pane-views-panes, .front.not-logged-in
 .pane-views, .front.not-logged-in
 body.page-node .pane-views-panes, .page-events .view-commons-events-upcoming .view-content, .pane-commons-bw-group, .view-display-id-commons_events_upcoming_page .views-row, .view-commons-groups-directory > .view-content > .views-row,
