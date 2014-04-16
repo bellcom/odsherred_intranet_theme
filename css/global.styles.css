@@ -113,9 +113,6 @@ var {
 /**
  * Wraps all header elements - branding and .region-header
  */
-.header-wrapper {
-  overflow: hidden;
-}
 
 #header {
   position: relative;
@@ -145,7 +142,7 @@ img.site-logo.image-style-none {
 }
 
 .header-color-row-one {
-  border-top: 1.5em solid black;
+  border-top: none;
   background-color: #0b417e;
   height: 50px;
   padding: 15px 0 0 0;
