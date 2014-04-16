@@ -144,8 +144,7 @@ img.site-logo.image-style-none {
 .header-color-row-one {
   border-top: none;
   background-color: #0b417e;
-  height: 50px;
-  padding: 15px 0 0 0;
+  padding: 15px 0;
 }
 @media only screen and (min-width: 769px) {
   .header-color-row-one {
@@ -465,7 +464,9 @@ img.site-logo.image-style-none {
 .views-field-picture img {
   width: 50px;
 }
-
+.pane-os2intra-message-notifications img {
+  width: 100px;
+}
 /**
  * Form styles
  *
@@ -2600,6 +2601,22 @@ a:hover, a:focus {
  *  - #secondary-menu (secondary/user menu)
  * You can target all of these with .nav or div[id$="menu-bar"]
  */
+#menu-bar {
+  width: 100%;
+}
+#menu-bar .block-search {
+  float: left;
+  width: 20%;
+  padding-top: 5px;
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #menu-bar .block-search {
+    width: 40%;
+  }
+  #header #menu-bar nav#block-os2web-intra-user-menu-top-menu {
+    width: 60%;
+  }
+}
 #menu-bar.nav {
   display: inline-block;
   vertical-align: top;
@@ -2691,6 +2708,10 @@ a:hover, a:focus {
     font: 0/0 a;
     width: 40px;
     height: 50px;
+  }
+  #menu-bar.nav .block {
+    float: none;
+    width: 100% !important;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -2831,10 +2852,16 @@ ul.commons-utility-links li.last a {
 /* =============================================================================
  *    Bruger menu
  * =============================================================================*/
-
+#menu-bar nav#block-os2web-intra-user-menu-top-menu {
+  float: right;
+  width: 80%;
+}
 #menu-bar nav#block-os2web-intra-user-menu-top-menu ul li {
-	display: inline;
-	list-style-type: none;
+  display: inline;
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 5%;
 }
 
 /* =============================================================================
