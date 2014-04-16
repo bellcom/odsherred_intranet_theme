@@ -144,6 +144,7 @@ img.site-logo.image-style-none {
 .header-color-row-one {
   border-top: none;
   background-color: #0b417e;
+  min-height: 35px;
   padding: 15px 0;
 }
 @media only screen and (min-width: 769px) {
