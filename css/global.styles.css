@@ -4152,11 +4152,6 @@ nav#block-menu-block-4 div.menu-block-wrapper ul.menu li ul.menu a { font-style:
   background: transparent url('../images/icons/ico_search_bla.png?1375207738') no-repeat top center;
   border: none;
 }
-@media only screen and (max-width: 768px) {
-  .block-search {
-    display: none;
-  }
-}
 
 /* =============================================================================
  *   Node Styling
