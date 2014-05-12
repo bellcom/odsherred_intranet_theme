@@ -1,3 +1,8 @@
+.jcrop-holder img, .jcrop-preview {
+  max-width: initial;
+  height: initial;
+}
+
 #menu-bar.nav ul.menu li a {
   border-left: 1px solid #247aac;
 }
@@ -853,7 +858,7 @@ button,
 [type="button"],
 .button,
 [class*="action-item"], .pane-commons-groups-commons-groups-create-group a, .pane-commons-events-commons-events-create-event-link a {
-  padding: 5px; ; font-size: 12px; 
+  padding: 5px;  font-size: 12px; 
 }
 
 /* Dimensions for the small button type. */
@@ -5348,7 +5353,7 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 #main-content ul.menu { margin-top: 0;}
 #block-system-main { padding-left: 20px; }
 
-.container { margin: 0;}
+.container { margin: 0; overflow:hidden;}
 
 .media-youtube-video .media-youtube-player { max-width: 100%}
 

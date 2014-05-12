@@ -36,8 +36,8 @@ audio,
 canvas,
 video {
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
+  /*display: inline;
+  *zoom: 1;*/
 }
 
 /*
@@ -341,7 +341,7 @@ textarea {
   font-size: 100%;
   margin: 0;
   vertical-align: baseline;
-  *vertical-align: middle;
+  /*vertical-align: middle;*/
 }
 
 /*
@@ -354,8 +354,8 @@ input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
-  *height: 13px;
-  *width: 13px;
+  /*height: 13px;
+  *width: 13px;*/
 }
 
 /*
