@@ -40,14 +40,20 @@
 
 // Hide the flags for printing later.
 hide($user_profile['user_actions']);
+hide($user_profile['associated_groups']);
+hide($user_profile['group_group']);
+hide($user_profile['summary']);
+hide($user_profile['field_os2intra_phone']);
+hide($user_profile['field_os2intra_user_titles']);
 ?>
 <article id="user-<?php print $user->uid; ?>" class="<?php print $classes; ?>"<?php print $attributes; ?>>
   <header class="profile-header">
-    <?php print render($user_profile['username']); ?>
     <?php print render($user_profile['user_picture']); ?>
   </header>
   <div class="profile-content">
     <?php print render($user_profile); ?>
+    <?php print render($user_profile['field_os2intra_phone']); ?>
+    <?php print render($user_profile['user_actions']); ?>
   </div>
-  <?php print render($user_profile['user_actions']); ?>
+  
 </article>
