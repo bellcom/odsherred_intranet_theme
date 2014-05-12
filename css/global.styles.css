@@ -1,7 +1,11 @@
 #menu-bar.nav ul.menu li a {
   border-left: 1px solid #247aac;
 }
-
+li.menu-3681 a[href="/organisation/odsherred-kommune"] {
+  background-image: url(/sites/default/files/styles/menu_icon/public/menu_icons/menu_icon_3681.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
 .commons-pod, .page-user .pane-views-panes, .front.not-logged-in .pane-views-panes, .front.not-logged-in
 .pane-views, .front.not-logged-in
 body.page-node .pane-views-panes, .page-events .view-commons-events-upcoming .view-content, .pane-commons-bw-group, .view-display-id-commons_events_upcoming_page .views-row, .view-commons-groups-directory > .view-content > .views-row,
@@ -109,9 +113,6 @@ var {
 /**
  * Wraps all header elements - branding and .region-header
  */
-.header-wrapper {
-  overflow: hidden;
-}
 
 #header {
   position: relative;
@@ -141,7 +142,7 @@ img.site-logo.image-style-none {
 }
 
 .header-color-row-one {
-  border-top: 1.5em solid black;
+  border-top: none;
   background-color: #0b417e;
   height: 50px;
   padding: 15px 0 0 0;
@@ -4166,11 +4167,6 @@ nav#block-menu-block-4 div.menu-block-wrapper ul.menu li ul.menu a { font-style:
 .block-search .form-submit, .block-search .form-submit:hover {
   background: transparent url('../images/icons/ico_search_bla.png?1375207738') no-repeat top center;
   border: none;
-}
-@media only screen and (max-width: 768px) {
-  .block-search {
-    display: none;
-  }
 }
 
 /* =============================================================================

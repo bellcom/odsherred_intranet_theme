@@ -88,7 +88,7 @@
  * @see adaptivetheme_process_page()
  */
 ?>
-<div class="header-wrapper">
+<div class="header-wrapper container">
   <div class="header-color-row-one">
     <header<?php print $header_attributes; ?>>
 
