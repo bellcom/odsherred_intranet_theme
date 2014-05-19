@@ -5285,6 +5285,12 @@ body.front.logged-in .view-commons-homepage-content .article.node.node-page .lin
 .view-os2intra-user-groups .views-field-created,
 .view-os2intra-widgets .views-field-created {margin-bottom: 5px; text-align: right; font-size: 10px; font-style: italic; }
 
+.pane-os2intra-message-notifications img,
+.view-os2intra-message-notifications img {
+  width: 100px;
+  padding: 0 10px 10px 0;
+}
+
 /* =============================================================================
  *   OS2intra canteen menu - Dagens ret
  * ========================================================================== */
