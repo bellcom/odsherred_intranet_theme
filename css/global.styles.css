@@ -581,7 +581,7 @@ input[type="text"],
 input[type="time"],
 input[type="url"],
 input[type="week"] {
-  width: 100%; max-width: 170px;
+  width: 100%;
 }
 
 textarea,
